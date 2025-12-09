@@ -84,4 +84,3 @@ Demonstrates strong systems thinking + simulation logic.
 
 Email: jamesyng79@gmail.com
 LinkedIn: linkedin.com/in/james-young-3b77b3120
-GitHub: github.com/AreteDriver
