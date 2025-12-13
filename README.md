@@ -37,9 +37,9 @@ With a foundation in **Linux systems programming**, **driver development**, and 
 
 ### 🏭 Process Optimization for Enterprise
 - **Toyota Production System**: Applied Lean manufacturing principles and Kaizen methodologies
-- **Workflow Automation**: Reduced manual processes by 60-80% through intelligent automation
+- **Workflow Automation**: Significant reduction in manual processes through intelligent automation
 - **Analytics & Dashboards**: Real-time KPI tracking, takt-time planning, and waste elimination systems
-- **ROI-Focused Solutions**: Consistently delivered 3x-10x returns through process improvements
+- **ROI-Focused Solutions**: Delivered measurable returns through targeted process improvements
 
 ### 🤖 AI & Machine Learning Integration
 - **LLM Implementation**: OpenAI GPT, Claude, and custom fine-tuned models for business applications
@@ -63,7 +63,7 @@ A comprehensive AI cooking assistant that revolutionizes meal planning and recip
 - 🚀 **CI/CD Pipeline**: Automated testing and deployment with GitHub Actions
 - 📊 **Performance**: Sub-2s page loads with optimized Firestore queries and Next.js SSR
 
-**Impact**: Reduced meal planning time by 75% while improving dietary compliance and reducing food waste by 40%
+**Impact**: Significantly streamlines meal planning while improving dietary compliance and reducing food waste
 
 ---
 
@@ -79,7 +79,7 @@ Enterprise-grade analytics dashboard applying Toyota Production System principle
 - 🥽 **AR Visualization Concepts**: Heads-up display prototypes for shop floor workers
 - 📊 **Data Pipeline**: Automated ETL processes for production data aggregation
 
-**Impact**: Identified $200K+ in annual waste reduction opportunities, improved cycle time by 35%
+**Impact**: Identifies substantial waste reduction opportunities and cycle time improvements through data-driven insights
 
 ---
 
@@ -136,7 +136,7 @@ A mechanics-rich top-down shooter demonstrating advanced systems programming and
 I am an **AI specialist** on a mission to **eliminate organizational inefficiencies** through intelligent automation and strategic process optimization. My focus is on transitioning cutting-edge technical innovation into **highly scalable, enterprise-ready solutions** that deliver quantifiable business value.
 
 ### 🚀 Core Objectives:
-- 📈 **Maximize ROI**: Design systems that deliver 5-10x returns through automation and waste elimination
+- 📈 **Maximize ROI**: Design systems that deliver substantial returns through automation and waste elimination
 - 🏢 **Enterprise Scale**: Build solutions that seamlessly scale from prototype to production for Fortune 500 companies
 - 🔄 **Continuous Improvement**: Apply Lean/Kaizen principles to both code and business processes
 - 🤝 **Cross-Functional Impact**: Bridge technical and operational teams to drive organization-wide transformation
