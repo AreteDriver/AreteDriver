@@ -1,86 +1,52 @@
-🚀 James C. Young — AI Enablement & DevTools Engineering
+# 🚀 James C. Young
+## AI Enablement Engineer | DevTools Architect | Workflow Automation Specialist
 
-I build high-leverage tools, automation systems, and AI-powered products that make people more capable.
+I architect AI-enabled workflows that transform organizational chaos into 
+documented, scalable systems.
 
-⸻
+---
 
-🧩 What I Do
+## 🛠️ Technical Arsenal
 
-I design and ship systems that sit at the intersection of:
-	•	AI automation & workflow engineering
-	•	Developer tools for Linux & productivity
-	•	Full-stack AI applications (Python, Next.js, Firebase, OpenAI)
-	•	Lean manufacturing analytics & operations dashboards
-	•	Game simulation & systems programming
+**AI & Automation**
+- LLM Integration (OpenAI API, system design, structured prompting)
+- Workflow orchestration & multi-agent systems
+- Production AI deployment patterns
 
-My goal is simple:
-Eliminate friction. Amplify execution. Build tools that enable people to operate at a higher level.
+**Full-Stack Development**
+- Frontend: Next.js, React, React Native, Streamlit
+- Backend: Python (Flask), TypeScript, Firebase, Supabase
+- DevOps: Docker, GitHub Actions, CI/CD
 
-⸻
+**Systems & Operations**
+- Linux tooling & driver development
+- Lean manufacturing analytics
+- Operational dashboards & process automation
 
-🧠 Technical Focus
+---
 
-Languages: Python, TypeScript, JavaScript
-Frameworks: Next.js, Streamlit, Flask, Pygame
-AI: OpenAI API, system design, structured prompting, LLM integration
-DevTools: Linux tooling, automation scripts, GitHub Actions
-Cloud: Firebase, Supabase, Docker
-Ops: Lean / Kaizen, process automation, takt-time modeling
+## ⭐ Featured Projects
 
-⸻
+### 🤖 [AI-Orchestra](https://github.com/AreteDriver/AI-Orchestra) - Enterprise AI Workflow Framework
+Multi-agent orchestration system for building production AI pipelines
 
-⭐ Featured Projects
+### 🔥 [ChefWise](https://github.com/AreteDriver/ChefWise) - AI Cooking Assistant
+Full-stack AI app: Next.js + Firebase + OpenAI | Recipe generation & meal planning
 
-🔥 ChefWise — AI Cooking Assistant (Next.js + Firebase + OpenAI)
+### 🏭 [TLS Production 2.0](https://github.com/AreteDriver/TLS-Production-2.0) - Lean Analytics Dashboard  
+Real-time manufacturing ops dashboard | 95% time savings on waste tracking
 
-Full AI-powered recipe generator, pantry engine, substitutions logic, and dietary planning system.
-Includes modular JSON architecture, Firestore rules, API routes, auth, UI/UX flow, and CI/CD.
+### 🖥️ [Linux SnipTool](https://github.com/AreteDriver/Linux-SnipTool) - Modern Screenshot Tool
+Polished Ubuntu screenshot utility | Fast, reliable, production-ready
 
-⸻
+---
 
-🏭 TLS Production 2.0 — Lean Analytics & Operations Dashboard
+## 📫 Connect
 
-Streamlit dashboard with:
-	•	Real-time takt-time planner
-	•	Waste log
-	•	Kaizen roadmap
-	•	AR HUD concepts
-Demonstrates applied Lean engineering + Python analytics + UI design.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/james-young-3b77b3120)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:jamesyng79@gmail.com)
 
-⸻
+---
 
-🖥️ Linux SnipTool — Modern Screenshot Tool for Ubuntu
-
-A polished, fast, reliable alternative to existing Linux screenshot utilities.
-Clean UX, drop-shadow rendering, export control, and packaged for distribution.
-
-⸻
-
-🤖 AI-Orchestra — Modular Automation Framework
-
-A structured system for chaining AI tasks, building pipelines, and orchestrating multi-step reasoning agents.
-Includes API layer, dashboard, and test harness.
-
-⸻
-
-🎮 EVE_Rebellion — Top-Down Shooter (Pygame)
-
-Mechanics-rich game with difficulty scaling, weapon systems, enemy AI, and clean module structure.
-Demonstrates strong systems thinking + simulation logic.
-
-⸻
-
-📐 My Engineering Principles
-	•	Build clear, modular systems.
-	•	Favor readability over cleverness.
-	•	Automate anything that repeats.
-	•	Document everything that matters.
-	•	Ship small, ship often, and iterate.
-	•	Engineer for practical impact, not academic purity.
-
-⸻
-
-📫 Connect
-
-Email: jamesyng79@gmail.com
-LinkedIn: linkedin.com/in/james-young-3b77b3120
+> *Building systems that eliminate friction, amplify execution, and enable 
+> people to operate at a higher level.*
