@@ -1,7 +1,8 @@
-# 🚀 James C. Young (AreteDriver)
-## AI Enablement Engineer | DevTools Architect | Linux Systems Developer
+# James C. Young (AreteDriver)
 
-I architect production-ready tools and workflows that transform complexity into elegant, scalable systems.
+**Operational tooling for complex virtual and real-world systems.**
+
+AI Enablement Engineer | DevTools Architect | Linux Systems Developer
 
 ---
 
