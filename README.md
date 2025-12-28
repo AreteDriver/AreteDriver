@@ -1,141 +1,67 @@
-# James C. Young (AreteDriver)
+# James C. Young
 
-**Operational tooling for complex virtual and real-world systems.**
+**AI Enablement & Workflow Specialist**
 
-AI Enablement Engineer | DevTools Architect | Linux Systems Developer
-
----
-
-## 🛠️ Technical Arsenal
-
-**AI & Automation**
-- LLM Integration (OpenAI API, Claude API, structured prompting)
-- Multi-agent workflow orchestration
-- Production AI deployment patterns
-- Automation pipeline design
-
-**Full-Stack Development**
-- Frontend: React, React Native, Next.js, PySide6/Qt
-- Backend: Python (FastAPI, Flask), TypeScript
-- Mobile: React Native (iOS/Android)
-- Desktop: Electron, GTK, Qt
-
-**Systems & Linux**
-- Linux kernel driver development (C)
-- Desktop application development
-- System automation & tooling
-- Packaging & distribution
-
-**DevOps & Infrastructure**
-- Docker containerization
-- GitHub Actions CI/CD
-- Automated build pipelines
-- Multi-platform deployment
+I architect AI-enabled workflows and automation systems that convert ad-hoc experimentation into documented, scalable, production-grade operations.
 
 ---
 
-## ⭐ Featured Projects
+## What I Do
 
-### 🎮 EVE Online Ecosystem
-
-**[EVE Veles Eyes](https://github.com/AreteDriver/EVE_VelesEyes)** - Professional Multi-Boxing Suite
-- Real-time 30 FPS multi-window preview system
-- Team & character management
-- Auto-tiling with 7 grid patterns
-- Visual activity alerts (red flash detection)
-- Cross-platform: Linux + Windows .exe
-- **Tech:** Python, PySide6, ImageMagick, Win32 API
-
-**[EVE Quartermaster](https://github.com/AreteDriver/EVE_Quartermaster)** - Mobile Companion App
-- Multi-character ESI/SSO authentication
-- Asset tracking & market order management
-- AI-powered route planning with danger assessment
-- zkillboard integration
-- Desktop Linux multi-boxing scripts
-- **Tech:** React Native, TypeScript, Expo
-
-**[EVE Sentinel](https://github.com/AreteDriver/EVE_Sentinel)** - Alliance Intel & Recruitment Tool
-- Automated recruitment risk scoring
-- Corp history analysis & spy detection
-- Alt detection through activity correlation
-- Webhook notifications (Discord/Slack)
-- **Tech:** Python, FastAPI, ESI API, zkillboard API
+- **Design AI Operating Models** — Structured outputs, validation rails, fallbacks, and telemetry baked into every workflow
+- **Build Production Automation** — Systems that work reliably, not just in demos
+- **Convert Chaos to Process** — Transform one-off scripts and experiments into repeatable, documented operations
+- **Ship Cross-Platform Tools** — Linux-native applications with Windows support when needed
+- **Enable Teams** — Tools and patterns that amplify what operators can accomplish
 
 ---
 
-### 🐧 Linux Development Tools
+## Featured Projects
 
-**[G13_Linux](https://github.com/AreteDriver/G13_Linux)** - Logitech G13 Kernel Driver
-- Kernel-space driver for Logitech G13 Gaming Keyboard
-- Macro programming & LED control
-- LCD display management (160x43 pixels)
-- Profile-based configuration system
-- **Tech:** C, Linux Kernel Modules, USB HID
+### [AI-Orchestra](https://github.com/AreteDriver/AI-Orchestra)
+Enterprise-grade AI workflow orchestration platform. Chains GPT-4, GitHub, Notion, and Gmail into declarative automation pipelines with full observability.
 
-**[Linux SnipTool](https://github.com/AreteDriver/Linux_SnipTool)** - Modern Screenshot Tool
-- Polished Ubuntu screenshot utility
-- Region capture with annotation tools
-- Production-ready UX
-- **Tech:** Python, GTK
+### [ChefWise](https://github.com/AreteDriver/Chefwise)
+AI-powered meal planning with structured LLM outputs, serverless backend, and freemium architecture. Demonstrates production patterns for AI-driven consumer apps.
 
-**[Steam Proton Helper](https://github.com/AreteDriver/SteamProtonHelper)** - Gaming Utility
-- Diagnose & repair Proton/Wine prefix problems
-- One-click cleanup & version switching
-- **Tech:** Python, Bash
+### [Concept-Production](https://github.com/AreteDriver/Concept-Production)
+Operational tooling for lean manufacturing concepts — takt time planning, waste observation logging, and Kaizen backlog management.
+
+### [Linux SnipTool](https://github.com/AreteDriver/Linux_SnipTool)
+Polished screenshot utility for Ubuntu. Region capture, annotation, and clipboard integration with production-grade UX.
+
+### [EVE Rebellion](https://github.com/AreteDriver/EVE_Rebellion)
+Top-down arcade shooter demonstrating data-driven game architecture — procedural audio, JSON-based content pipeline, and gamepad support.
 
 ---
 
-### 🤖 AI & Automation
+## AI Operating Model
 
-**[ChefWise](https://github.com/AreteDriver/ChefWise)** - AI Cooking Assistant
-- Full-stack AI app: Recipe generation & meal planning
-- Ingredient-based recommendations
-- Macro calculation & substitution engine
-- **Tech:** Next.js, Firebase, OpenAI API
+Every AI system I build follows these principles:
 
-**[RedOPS](https://github.com/AreteDriver/RedOPS)** - Ethical Recon Toolkit
-- Modular metadata extraction
-- OSINT workflow automation
-- **Tech:** Python
+| Layer | Implementation |
+|-------|----------------|
+| **Structured Outputs** | JSON schemas, Pydantic validation, typed responses |
+| **Safety Rails** | Input sanitization, content filtering, rate limiting |
+| **Retry/Fallback** | Exponential backoff, graceful degradation, circuit breakers |
+| **Telemetry** | Token usage, latency tracking, cost monitoring, quality signals |
 
 ---
 
-### 🎮 Game Development
+## Now
 
-**[EVE Rebellion](https://github.com/AreteDriver/EVE_Rebellion)** - Space Combat Game
-- Top-down space combat showcasing systems architecture
-- Modular design, asset pipelines, AI behaviors
-- **Tech:** Python, Pygame
-
----
-
-## 💼 What I Build
-
-**Production Tools** - Not prototypes. Battle-tested, user-focused software.
-
-**Cross-Platform Solutions** - Linux native, Windows support, mobile apps.
-
-**System Architecture** - Event-driven designs, modular systems, scalable patterns.
-
-**Developer Experience** - Tools that remove friction and amplify productivity.
+Currently building:
+- **EVE VelesEyes** — Multi-boxing suite for EVE Online with real-time window preview
+- **EVE Gatekeeper** — Rust-based fleet management with ESI integration
+- **evemap** — Route planner with zKillboard risk scoring
 
 ---
 
-## 📫 Connect
+## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/james-young-3b77b3120)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:jamesyng79@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-View-green?style=flat&logo=github)](https://github.com/AreteDriver/portfolio)
-
----
-
-## ☕ Support My Work
-
-If you find my projects useful:
-- **Buy Me a Coffee**: https://buymeacoffee.com/aretedriver
-- **In-Game (EVE Online)**: Send ISK to **AreteDriver**
-
-Your support helps keep these projects maintained and improving!
+- **Location**: Portland, OR
+- **Email**: jamesyng79@gmail.com
+- **LinkedIn**: [linkedin.com/in/james-young-3b77b3120](https://linkedin.com/in/james-young-3b77b3120)
 
 ---
 
