@@ -18,20 +18,20 @@ I architect AI-enabled workflows and automation systems that convert ad-hoc expe
 
 ## Featured Projects
 
-### [AI-Orchestra](https://github.com/AreteDriver/AI-Orchestra)
-Enterprise-grade AI workflow orchestration platform. Chains GPT-4, GitHub, Notion, and Gmail into declarative automation pipelines with full observability.
+### [Argus Overview](https://github.com/AreteDriver/Argus_Overview)
+Professional EVE Online multiboxing tool for Linux. Real-time 30 FPS window previews, team management, auto-tiling layouts, and visual activity alerts.
 
-### [ChefWise](https://github.com/AreteDriver/Chefwise)
-AI-powered meal planning with structured LLM outputs, serverless backend, and freemium architecture. Demonstrates production patterns for AI-driven consumer apps.
+### [Razer Controls](https://github.com/AreteDriver/Razer_Controls)
+Razer Control Center for Linux — button remapping, macros, RGB lighting, and DPI control with profile management.
 
-### [Concept-Production](https://github.com/AreteDriver/Concept-Production)
-Operational tooling for lean manufacturing concepts — takt time planning, waste observation logging, and Kaizen backlog management.
+### [EVE Rebellion (Rust)](https://github.com/AreteDriver/eve_rebellion_rust)
+EVE-inspired arcade shooter built in Rust/Bevy. Elder Fleet Liberation campaign with procedural audio and gamepad support.
 
-### [Linux SnipTool](https://github.com/AreteDriver/Linux_SnipTool)
-Polished screenshot utility for Ubuntu. Region capture, annotation, and clipboard integration with production-grade UX.
+### [ELM - EVE Linux Manager](https://github.com/AreteDriver/ELM)
+Proton-based EVE Online launcher with prefix management, snapshots, and rollback for Linux gamers.
 
-### [EVE Rebellion](https://github.com/AreteDriver/EVE_Rebellion)
-Top-down arcade shooter demonstrating data-driven game architecture — procedural audio, JSON-based content pipeline, and gamepad support.
+### [G13 Linux](https://github.com/AreteDriver/G13_Linux)
+Logitech G13 gaming keyboard driver for Linux — macro programming, RGB control, and LCD display management.
 
 ---
 
@@ -51,9 +51,10 @@ Every AI system I build follows these principles:
 ## Now
 
 Currently building:
-- **EVE VelesEyes** — Multi-boxing suite for EVE Online with real-time window preview
-- **EVE Gatekeeper** — Rust-based fleet management with ESI integration
-- **evemap** — Route planner with zKillboard risk scoring
+- **Argus Overview** — Multi-boxing suite for EVE Online (Linux + Windows)
+- **Razer Controls** — Full-featured Razer peripheral control for Linux
+- **eve_rebellion_rust** — Rust/Bevy game engine migration
+- **SteamProtonHelper** — Linux gaming prefix diagnostics and repair
 
 ---
 
