@@ -24,14 +24,17 @@ Professional EVE Online multiboxing tool for Linux. Real-time 30 FPS window prev
 ### [Razer Controls](https://github.com/AreteDriver/Razer_Controls)
 Razer Control Center for Linux — button remapping, macros, RGB lighting, and DPI control with profile management.
 
-### [EVE Rebellion (Rust)](https://github.com/AreteDriver/eve_rebellion_rust)
-EVE-inspired arcade shooter built in Rust/Bevy. Elder Fleet Liberation campaign with procedural audio and gamepad support.
+### [EVE Rebellion (Rust)](https://github.com/AreteDriver/eve_rebellion_rust) — [Play on itch.io](https://aretedriver.itch.io/eve-rebellion)
+EVE-inspired arcade shooter built in Rust/Bevy. Multiple campaigns (Elder Fleet, Caldari/Gallente), endless mode, procedural audio, and full gamepad support.
 
 ### [ELM - EVE Linux Manager](https://github.com/AreteDriver/ELM)
 Proton-based EVE Online launcher with prefix management, snapshots, and rollback for Linux gamers.
 
 ### [G13 Linux](https://github.com/AreteDriver/G13_Linux)
 Logitech G13 gaming keyboard driver for Linux — macro programming, RGB control, and LCD display management.
+
+### [Steam Proton Helper](https://github.com/AreteDriver/SteamProtonHelper)
+Linux gaming diagnostics tool for Steam/Proton setup — system checks, GE-Proton management, ProtonDB lookup, with CLI and GUI.
 
 ---
 
@@ -50,11 +53,12 @@ Every AI system I build follows these principles:
 
 ## Now
 
-Currently building:
-- **Argus Overview** — Multi-boxing suite for EVE Online (Linux + Windows)
-- **Razer Controls** — Full-featured Razer peripheral control for Linux
-- **eve_rebellion_rust** — Rust/Bevy game engine migration
-- **SteamProtonHelper** — Linux gaming prefix diagnostics and repair
+Currently maintaining:
+- **Argus Overview v2.5** — Multi-boxing suite for EVE Online (Linux + Windows)
+- **Razer Controls v1.7** — Full-featured Razer peripheral control for Linux
+- **EVE Rebellion v1.5** — Arcade shooter with 3 campaigns, playable on itch.io
+- **Steam Proton Helper v2.0** — Linux gaming diagnostics with PyQt6 GUI
+- **G13 Linux v1.3** — Logitech G13 driver with macro recording
 
 ---
 
