@@ -25,7 +25,7 @@ Professional EVE Online multiboxing tool for Linux. Real-time 30 FPS window prev
 Razer Control Center for Linux — button remapping, macros, RGB lighting, and DPI control with profile management.
 
 ### [EVE Rebellion (Rust)](https://github.com/AreteDriver/eve_rebellion_rust) — [Play on itch.io](https://aretedriver.itch.io/eve-rebellion)
-EVE-inspired arcade shooter built in Rust/Bevy. Multiple campaigns (Elder Fleet, Caldari/Gallente), endless mode, procedural audio, and full gamepad support.
+Collection of EVE Online arcade shooters in Rust/Bevy. Campaigns: Elder Fleet Invasion, Battle of Caldari Prime, Triglavian Invasion (coming soon).
 
 ### [ELM - EVE Linux Manager](https://github.com/AreteDriver/ELM)
 Proton-based EVE Online launcher with prefix management, snapshots, and rollback for Linux gamers.
@@ -56,7 +56,7 @@ Every AI system I build follows these principles:
 Currently maintaining:
 - **Argus Overview v2.5** — Multi-boxing suite for EVE Online (Linux + Windows)
 - **Razer Controls v1.7** — Full-featured Razer peripheral control for Linux
-- **EVE Rebellion v1.5** — Arcade shooter with 3 campaigns, playable on itch.io
+- **EVE Rebellion v1.5** — EVE Online arcade shooter collection, playable on itch.io
 - **Steam Proton Helper v2.0** — Linux gaming diagnostics with PyQt6 GUI
 - **G13 Linux v1.3** — Logitech G13 driver with macro recording
 
