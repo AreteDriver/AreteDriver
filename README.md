@@ -64,6 +64,8 @@ Currently building:
 - **Email**: jamesyng79@gmail.com
 - **LinkedIn**: [linkedin.com/in/james-young-3b77b3120](https://linkedin.com/in/james-young-3b77b3120)
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=flat&logo=buy-me-a-coffee)](https://buymeacoffee.com/aretedriver)
+
 ---
 
 > *Building systems that eliminate friction, amplify execution, and enable people to operate at a higher level.*
