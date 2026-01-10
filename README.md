@@ -36,6 +36,15 @@ Logitech G13 gaming keyboard driver for Linux — macro programming, RGB control
 ### [Steam Proton Helper](https://github.com/AreteDriver/SteamProtonHelper)
 Linux gaming diagnostics tool for Steam/Proton setup — system checks, GE-Proton management, ProtonDB lookup, with CLI and GUI.
 
+### [LikX](https://github.com/AreteDriver/LikX)
+Screenshot capture and annotation tool for Linux — region selection, drawing tools, text overlay, and clipboard integration.
+
+### [AI GuitarTabs](https://github.com/AreteDriver/AI_GuitarTabs)
+AI-powered guitar tab generation and music transcription — audio analysis, chord detection, and tab export.
+
+### [AI-Orchestra](https://github.com/AreteDriver/AI-Orchestra)
+Enterprise AI workflow orchestration platform — GPT-4 integration, GitHub automation, Notion sync, and Gmail workflows.
+
 ---
 
 ## AI Operating Model
@@ -54,11 +63,13 @@ Every AI system I build follows these principles:
 ## Now
 
 Currently maintaining:
-- **Argus Overview v2.5** — Multi-boxing suite for EVE Online (Linux + Windows)
-- **Razer Controls v1.7** — Full-featured Razer peripheral control for Linux
-- **EVE Rebellion v1.5** — EVE Online arcade shooter collection, playable on itch.io
-- **Steam Proton Helper v2.0** — Linux gaming diagnostics with PyQt6 GUI
-- **G13 Linux v1.3** — Logitech G13 driver with macro recording
+- **Argus Overview v2.7** — Multi-boxing suite for EVE Online (Linux + Windows)
+- **Razer Controls v1.9** — Full-featured Razer peripheral control for Linux
+- **EVE Rebellion v1.7** — EVE Online arcade shooter collection, playable on itch.io
+- **Steam Proton Helper v2.3** — Linux gaming diagnostics with PyQt6 GUI
+- **G13 Linux v1.5** — Logitech G13 driver with macro recording
+- **LikX v3.24** — Screenshot capture and annotation tool for Linux
+- **AI-Orchestra v1.0** — Enterprise AI workflow orchestration platform
 
 ---
 
