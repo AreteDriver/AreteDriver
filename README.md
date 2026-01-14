@@ -2,7 +2,7 @@
 
 **Operational Intelligence & AI Systems Engineer**
 
-I build systems that transform operational data into actionable intelligence—manufacturing analytics, personal AI architectures, and developer tooling.
+I build systems that transform operational data into actionable intelligence—manufacturing analytics, logistics operations, personal AI architectures, and developer tooling.
 
 ---
 
@@ -10,6 +10,9 @@ I build systems that transform operational data into actionable intelligence—m
 
 ### [Concept-Production](https://github.com/AreteDriver/Concept-Production)
 **Lean manufacturing tooling** — Takt time planning, waste logging, and Kaizen management. SQLite analytics, IoT streaming, graph models for equipment relationships, and AI-powered improvement suggestions.
+
+### [Concept-Logistics](https://github.com/AreteDriver/Concept-Logistics)
+**Vehicle port operations** — Yard management, manifests, and work orders. Operational intelligence for logistics workflows.
 
 ### [Animus](https://github.com/AreteDriver/animus)
 **Personal AI exocortex** — Persistent context storage with vector embeddings (ChromaDB), cross-device sync (WebSocket + mDNS), provider-agnostic AI abstraction (Ollama/Claude/GPT), and temporal reasoning with episodic memory.
