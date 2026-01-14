@@ -1,86 +1,43 @@
 # James C. Young
 
-**AI Enablement & Workflow Specialist**
+**Operational Intelligence & AI Systems Engineer**
 
-I architect AI-enabled workflows and automation systems that convert ad-hoc experimentation into documented, scalable, production-grade operations.
-
----
-
-## What I Do
-
-- **Design AI Operating Models** — Structured outputs, validation rails, fallbacks, and telemetry baked into every workflow
-- **Build Production Automation** — Systems that work reliably, not just in demos
-- **Convert Chaos to Process** — Transform one-off scripts and experiments into repeatable, documented operations
-- **Ship Cross-Platform Tools** — Linux-native applications with Windows support when needed
-- **Enable Teams** — Tools and patterns that amplify what operators can accomplish
+I build systems that transform operational data into actionable intelligence—manufacturing analytics, personal AI architectures, and developer tooling.
 
 ---
 
 ## Featured Projects
 
-### [Argus Overview](https://github.com/AreteDriver/Argus_Overview)
-Professional EVE Online multiboxing tool for Linux. Real-time 30 FPS window previews, team management, auto-tiling layouts, and visual activity alerts.
+### [Concept-Production](https://github.com/AreteDriver/Concept-Production)
+**Lean manufacturing tooling** — Takt time planning, waste logging, and Kaizen management. SQLite analytics, IoT streaming, graph models for equipment relationships, and AI-powered improvement suggestions.
 
-### [Razer Controls](https://github.com/AreteDriver/Razer_Controls)
-Razer Control Center for Linux — button remapping, macros, RGB lighting, and DPI control with profile management.
-
-### [EVE Rebellion (Rust)](https://github.com/AreteDriver/eve_rebellion_rust) — [Play on itch.io](https://aretedriver.itch.io/eve-rebellion)
-Collection of EVE Online arcade shooters in Rust/Bevy. Campaigns: Elder Fleet Invasion, Battle of Caldari Prime, Triglavian Invasion (coming soon).
-
-### [ELM - EVE Linux Manager](https://github.com/AreteDriver/ELM)
-Proton-based EVE Online launcher with prefix management, snapshots, and rollback for Linux gamers.
-
-### [G13 Linux](https://github.com/AreteDriver/G13_Linux)
-Logitech G13 gaming keyboard driver for Linux — macro programming, RGB control, and LCD display management.
-
-### [Steam Proton Helper](https://github.com/AreteDriver/SteamProtonHelper)
-Linux gaming diagnostics tool for Steam/Proton setup — system checks, GE-Proton management, ProtonDB lookup, with CLI and GUI.
+### [Animus](https://github.com/AreteDriver/animus)
+**Personal AI exocortex** — Persistent context storage with vector embeddings (ChromaDB), cross-device sync (WebSocket + mDNS), provider-agnostic AI abstraction (Ollama/Claude/GPT), and temporal reasoning with episodic memory.
 
 ### [LikX](https://github.com/AreteDriver/LikX)
-Screenshot capture and annotation tool for Linux — region selection, drawing tools, text overlay, and clipboard integration.
-
-### [AI GuitarTabs](https://github.com/AreteDriver/AI_GuitarTabs)
-AI-powered guitar tab generation and music transcription — audio analysis, chord detection, and tab export.
-
-### [AI-Orchestra](https://github.com/AreteDriver/AI-Orchestra)
-Enterprise AI workflow orchestration platform — GPT-4 integration, GitHub automation, Notion sync, and Gmail workflows.
+**Screenshot capture for Linux** — X11/Wayland support, scrolling capture, OCR text extraction, cloud storage integrations. Available as AppImage, .deb, and AUR package.
 
 ---
 
-## AI Operating Model
+## Other Projects
 
-Every AI system I build follows these principles:
+| Project | Description |
+|---------|-------------|
+| [Argus Overview](https://github.com/AreteDriver/Argus_Overview) | EVE Online multiboxing tool — real-time previews, auto-tiling |
+| [EVE Rebellion](https://github.com/AreteDriver/eve_rebellion_rust) | Arcade shooters in Rust/Bevy |
+| [G13 Linux](https://github.com/AreteDriver/G13_Linux) | Logitech G13 driver for Linux |
+| [Razer Controls](https://github.com/AreteDriver/Razer_Controls) | Razer peripherals control center for Linux |
 
-| Layer | Implementation |
-|-------|----------------|
-| **Structured Outputs** | JSON schemas, Pydantic validation, typed responses |
-| **Safety Rails** | Input sanitization, content filtering, rate limiting |
-| **Retry/Fallback** | Exponential backoff, graceful degradation, circuit breakers |
-| **Telemetry** | Token usage, latency tracking, cost monitoring, quality signals |
+---
+
+## Technical Focus
+
+- **Data & Analytics**: SQL modeling, time-series analysis, anomaly detection, data lineage
+- **AI Integration**: Vector embeddings, RAG patterns, multi-provider abstraction
+- **Systems**: Python, Rust, Linux-native tooling, CI/CD automation
 
 ---
 
 ## Now
 
-Currently maintaining:
-- **Argus Overview v2.7** — Multi-boxing suite for EVE Online (Linux + Windows)
-- **Razer Controls v1.9** — Full-featured Razer peripheral control for Linux
-- **EVE Rebellion v1.7** — EVE Online arcade shooter collection, playable on itch.io
-- **Steam Proton Helper v2.3** — Linux gaming diagnostics with PyQt6 GUI
-- **G13 Linux v1.5** — Logitech G13 driver with macro recording
-- **LikX v3.24** — Screenshot capture and annotation tool for Linux
-- **AI-Orchestra v1.0** — Enterprise AI workflow orchestration platform
-
----
-
-## Connect
-
-- **Location**: Portland, OR
-- **Email**: jamesyng79@gmail.com
-- **LinkedIn**: [linkedin.com/in/james-young-3b77b3120](https://linkedin.com/in/james-young-3b77b3120)
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=flat&logo=buy-me-a-coffee)](https://buymeacoffee.com/aretedriver)
-
----
-
-> *Building systems that eliminate friction, amplify execution, and enable people to operate at a higher level.*
+Building operational intelligence systems and exploring personal AI architectures for cognitive sovereignty.
