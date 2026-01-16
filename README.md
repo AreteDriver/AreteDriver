@@ -8,11 +8,11 @@ I build systems that transform operational data into actionable intelligence—m
 
 ## Featured Projects
 
-### [Concept-Production](https://github.com/AreteDriver/Concept-Production)
-**Lean manufacturing tooling** — Takt time planning, waste logging, and Kaizen management. SQLite analytics, IoT streaming, graph models for equipment relationships, and AI-powered improvement suggestions.
+### [VDC-Production](https://github.com/AreteDriver/vdc-production)
+**Lean manufacturing tooling** — Takt time planning, waste logging, and Kaizen management. SQLite analytics, Streamlit dashboards, 70+ tests.
 
-### [Concept-Logistics](https://github.com/AreteDriver/Concept-Logistics)
-**Vehicle port operations** — Yard management, manifests, and work orders. Operational intelligence for logistics workflows.
+### [VDC-Logistics](https://github.com/AreteDriver/vdc-logistics)
+**Vehicle port operations** — Yard management, manifests, and work orders. Barcode scanning, offline queue, production flow tracking.
 
 ### [Animus](https://github.com/AreteDriver/animus)
 **Personal AI exocortex** — Persistent context storage with vector embeddings (ChromaDB), cross-device sync (WebSocket + mDNS), provider-agnostic AI abstraction (Ollama/Claude/GPT), and temporal reasoning with episodic memory.
@@ -29,7 +29,7 @@ I build systems that transform operational data into actionable intelligence—m
 | [Argus Overview](https://github.com/AreteDriver/Argus_Overview) | EVE Online multiboxing tool — real-time previews, auto-tiling |
 | [EVE Rebellion](https://github.com/AreteDriver/eve_rebellion_rust) | Arcade shooters in Rust/Bevy |
 | [G13 Linux](https://github.com/AreteDriver/G13_Linux) | Logitech G13 driver for Linux |
-| [Razer Controls](https://github.com/AreteDriver/Razer_Controls) | Razer peripherals control center for Linux |
+| [Razer Controls](https://github.com/AreteDriver/RazerControls) | Razer peripherals control center for Linux |
 
 ---
 
