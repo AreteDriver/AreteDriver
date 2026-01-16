@@ -14,11 +14,11 @@ I build systems that transform operational data into actionable intelligence—m
 ### [VDC-Logistics](https://github.com/AreteDriver/vdc-logistics)
 **Vehicle port operations** — Yard management, manifests, and work orders. Barcode scanning, offline queue, production flow tracking.
 
-### [Animus](https://github.com/AreteDriver/animus)
-**Personal AI exocortex** — Persistent context storage with vector embeddings (ChromaDB), cross-device sync (WebSocket + mDNS), provider-agnostic AI abstraction (Ollama/Claude/GPT), and temporal reasoning with episodic memory.
-
 ### [LikX](https://github.com/AreteDriver/LikX)
 **Screenshot capture for Linux** — X11/Wayland support, scrolling capture, OCR text extraction, cloud storage integrations. Available as AppImage, .deb, and AUR package.
+
+### [SteamProtonHelper](https://github.com/AreteDriver/SteamProtonHelper)
+**Proton/Wine repair utility** — Diagnoses broken prefixes, one-click cleanup, version switching. PyPI package with CLI + GUI modes.
 
 ---
 
@@ -27,7 +27,7 @@ I build systems that transform operational data into actionable intelligence—m
 | Project | Description |
 |---------|-------------|
 | [Argus Overview](https://github.com/AreteDriver/Argus_Overview) | EVE Online multiboxing tool — real-time previews, auto-tiling |
-| [EVE Rebellion](https://github.com/AreteDriver/eve_rebellion_rust) | Arcade shooters in Rust/Bevy |
+| [ChefWise](https://github.com/AreteDriver/Chefwise) | AI-powered meal planning with GPT-4 recipe generation |
 | [G13 Linux](https://github.com/AreteDriver/G13_Linux) | Logitech G13 driver for Linux |
 | [Razer Controls](https://github.com/AreteDriver/RazerControls) | Razer peripherals control center for Linux |
 
