@@ -8,11 +8,7 @@ I build systems that transform operational data into actionable intelligence—m
 
 ## Featured Projects
 
-### [VDC-Production](https://github.com/AreteDriver/vdc-production)
-**Lean manufacturing tooling** — Takt time planning, waste logging, and Kaizen management. SQLite analytics, Streamlit dashboards, 70+ tests.
 
-### [VDC-Logistics](https://github.com/AreteDriver/vdc-logistics)
-**Vehicle port operations** — Yard management, manifests, and work orders. Barcode scanning, offline queue, production flow tracking.
 
 ### [LikX](https://github.com/AreteDriver/LikX)
 **Screenshot capture for Linux** — X11/Wayland support, scrolling capture, OCR text extraction, cloud storage integrations. Available as AppImage, .deb, and AUR package.
