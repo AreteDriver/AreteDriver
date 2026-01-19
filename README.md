@@ -8,10 +8,7 @@
 
 ## Portfolio — Operational Intelligence & AI Workflows
 
-### [VDC Portfolio](https://github.com/AreteDriver/vdc-portfolio) ⭐
-**Vehicle Distribution Center operational intelligence system**
 
-3 interconnected Streamlit apps serving supervisors, floor teams, and facility displays. Real-time bottleneck detection, offline-first tablet support, shift handoff analytics.
 
 ![VDC Stack](https://img.shields.io/badge/Stack-Streamlit%20|%20SQLite%20|%20Docker-blue)
 
