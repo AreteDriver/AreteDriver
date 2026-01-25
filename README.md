@@ -7,7 +7,10 @@
 
 ## Portfolio — Operational Intelligence & AI Workflows
 
+### [VDC Display](https://github.com/AreteDriver/vdc-display)
+**Vehicle Distribution Center dashboard for facility displays**
 
+Shift progress tracking, stage breakdowns, auto-refresh for TV displays. Production-deployed operational intelligence.
 
 ![VDC Stack](https://img.shields.io/badge/Stack-Streamlit%20|%20SQLite%20|%20Docker-blue)
 
@@ -111,6 +114,14 @@ Every AI system I build follows these principles:
 - **LinkedIn**: [linkedin.com/in/james-young-3b77b3120](https://linkedin.com/in/james-young-3b77b3120)
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=flat&logo=buy-me-a-coffee)](https://buymeacoffee.com/aretedriver)
+
+---
+
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AreteDriver&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
+</p>
 
 ---
 
