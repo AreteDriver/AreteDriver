@@ -2,8 +2,7 @@
 
 **Forward Deployed Software Engineer | AI Enablement | Operational Intelligence**
 
-17 years in manufacturing operations. Now I build the systems I wish existed when I was running shifts.
-
+17 years in manufacturing operations. I now build automation, AI workflows, and operational systems to replace tribal knowledge and firefighting.
 ---
 
 ## Portfolio — Operational Intelligence & AI Workflows
