@@ -66,7 +66,7 @@ Recipe generation from pantry ingredients, meal planning with macro tracking, of
 | [LikX](https://github.com/AreteDriver/LikX) | Screenshot capture for Linux — X11/Wayland, OCR, cloud storage |
 | [SteamProtonHelper](https://github.com/AreteDriver/SteamProtonHelper) | Proton/Wine repair utility with CLI + GUI |
 | [G13 Linux](https://github.com/AreteDriver/G13_Linux) | Logitech G13 driver for Linux |
-| [Razer Controls](https://github.com/AreteDriver/Razer_Controls) | Razer peripherals control center for Linux |
+| [Razer Controls](https://github.com/AreteDriver/RazerControls) | Razer peripherals control center for Linux |
 
 ---
 
