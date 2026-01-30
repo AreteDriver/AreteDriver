@@ -12,11 +12,22 @@
 ### [Gorgon](https://github.com/AreteDriver/Gorgon)
 **Multi-agent AI orchestration framework**
 
-Coordinate specialized AI agents (Planner → Builder → Tester → Reviewer) across enterprise workflows. FastAPI backend, Streamlit dashboard, token/cost tracking.
+Coordinate specialized AI agents (Planner → Builder → Tester → Reviewer) across enterprise workflows. FastAPI backend, React dashboard, token/cost tracking. 85K+ LOC, 3600+ tests.
 
-![Gorgon Stack](https://img.shields.io/badge/Stack-FastAPI%20|%20Claude%20|%20OpenAI-purple)
+![Gorgon Stack](https://img.shields.io/badge/Stack-FastAPI%20|%20Claude%20|%20React-purple)
 
 **Demonstrates:** AI workflow design, production instrumentation, agent coordination
+
+---
+
+### [Animus](https://github.com/AreteDriver/animus)
+**Personal AI exocortex framework**
+
+Local-first memory system with vector storage, multi-model reasoning, and self-learning with guardrails. 18K LOC, 333 tests.
+
+![Animus Stack](https://img.shields.io/badge/Stack-Python%20|%20ChromaDB%20|%20FastAPI-teal)
+
+**Demonstrates:** AI memory architecture, safety guardrails, local-first design
 
 ---
 
@@ -31,36 +42,47 @@ Real-time 30 FPS window previews, team management, auto-tiling layouts, EVE sett
 
 ---
 
-### [ChefWise](https://github.com/AreteDriver/Chefwise)
-**AI-powered meal planning PWA**
+### [GameSpace](https://github.com/AreteDriver/GameSpace)
+**Fantasy sports decision engine with AI**
 
-Recipe generation from pantry ingredients, meal planning with macro tracking, offline-first architecture with IndexedDB sync.
+iOS app with Claude AI integration for lineup optimization, injury analysis, and game predictions. Token tracking, budget monitoring, real-time data sync.
 
-![ChefWise Stack](https://img.shields.io/badge/Stack-Next.js%20|%20Firebase%20|%20OpenAI-orange)
+![GameSpace Stack](https://img.shields.io/badge/Stack-Swift%20|%20Claude%20|%20Firebase-orange)
 
-**Demonstrates:** Full-stack web development, PWA/offline patterns, subscription systems
+**Demonstrates:** Mobile AI integration, real-time sports data, subscription systems
 
 ---
 
-### [EVE Rebellion](https://github.com/AreteDriver/EVE_Rebellion)
+### [EVE Rebellion](https://github.com/AreteDriver/eve_rebellion_rust)
 **Top-down arcade shooter in the EVE Online universe**
 
-4 faction campaigns, procedural audio synthesis, data-driven enemy AI, controller support.
+Rust/Bevy rewrite with Elder Fleet Liberation campaign, 3 game modes, procedural audio, WASM web builds.
 
-![EVE Rebellion Stack](https://img.shields.io/badge/Stack-Python%20|%20Pygame%20|%20NumPy-red)
+![EVE Rebellion Stack](https://img.shields.io/badge/Stack-Rust%20|%20Bevy%20|%20WASM-red)
 
-**Demonstrates:** Game development, data-driven architecture, procedural content
+**Demonstrates:** Game development, Rust/ECS architecture, cross-platform builds
 
 ---
 
-## Other Projects
+## EVE Online Tools
 
 | Project | Description |
 |---------|-------------|
-| [LikX](https://github.com/AreteDriver/LikX) | Screenshot capture for Linux — X11/Wayland, OCR, cloud storage |
+| [EVE Gatekeeper](https://github.com/AreteDriver/EVE_Gatekeeper) | Fleet intel, route planning, jump bridge networks — backend + mobile + desktop |
+| [Argus Overview](https://github.com/AreteDriver/Argus_Overview) | Multi-boxing tool for Linux with window previews |
+| [EVE Sentinel](https://github.com/AreteDriver/EVE_Sentinel) | Alliance intel and recruitment risk scoring |
+| [EVE Quartermaster](https://github.com/AreteDriver/EVE_Quartermaster) | Mobile companion — assets, routes, market |
+
+---
+
+## Linux DevTools
+
+| Project | Description |
+|---------|-------------|
+| [LikX](https://github.com/AreteDriver/LikX) | Screenshot capture — X11/Wayland, OCR, annotations, cloud upload |
+| [G13 Linux](https://github.com/AreteDriver/G13_Linux) | Logitech G13 driver with macros, RGB, LCD display |
+| [RazerControls](https://github.com/AreteDriver/RazerControls) | Razer peripherals control center for Linux |
 | [SteamProtonHelper](https://github.com/AreteDriver/SteamProtonHelper) | Proton/Wine repair utility with CLI + GUI |
-| [G13 Linux](https://github.com/AreteDriver/G13_Linux) | Logitech G13 driver for Linux |
-| [Razer Controls](https://github.com/AreteDriver/RazerControls) | Razer peripherals control center for Linux |
 
 ---
 
@@ -68,10 +90,10 @@ Recipe generation from pantry ingredients, meal planning with macro tracking, of
 
 | Domain | Technologies |
 |--------|--------------|
-| **Languages** | Python, Rust, TypeScript |
+| **Languages** | Python, Rust, TypeScript, Swift |
 | **AI/ML** | Claude API, OpenAI, LangChain, prompt engineering |
 | **Backend** | FastAPI, Flask, Firebase, PostgreSQL, SQLite |
-| **Frontend** | Streamlit, Next.js, React, PySide6/Qt |
+| **Frontend** | React, Next.js, Streamlit, PySide6/Qt |
 | **DevOps** | Docker, GitHub Actions, Linux administration |
 | **Specialty** | Operational systems, multi-persona design, offline-first architecture |
 
