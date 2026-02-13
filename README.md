@@ -42,17 +42,6 @@ Real-time 30 FPS window previews, team management, auto-tiling layouts, EVE sett
 
 ---
 
-### [GameSpace](https://github.com/AreteDriver/GameSpace)
-**Fantasy sports decision engine with AI**
-
-iOS app with Claude AI integration for lineup optimization, injury analysis, and game predictions. Token tracking, budget monitoring, real-time data sync.
-
-![GameSpace Stack](https://img.shields.io/badge/Stack-Swift%20|%20Claude%20|%20Firebase-orange)
-
-**Demonstrates:** Mobile AI integration, real-time sports data, subscription systems
-
----
-
 ### [EVE Rebellion](https://github.com/AreteDriver/eve_rebellion_rust)
 **Top-down arcade shooter in the EVE Online universe**
 
