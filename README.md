@@ -11,30 +11,35 @@
 ### [Gorgon](https://github.com/AreteDriver/Gorgon)
 Production runtime for AI agent workflows. 10 specialized agents coordinate across pipelines with budget enforcement, automatic checkpoints, and circuit breakers. Every run is auditable and resumable.
 
-**5,200+ tests** · Python · FastAPI · MIT
+**7,200+ tests · 89% coverage** · Python · FastAPI · MIT
 
 ### [Convergent](https://github.com/AreteDriver/convergent)
 Coordination library for multi-agent systems. Agents share an intent graph, detect overlaps before building, and converge on compatible outputs — eliminating rework from parallel code generation. Zero dependencies, optional Rust acceleration.
 
-**670+ tests · 97% coverage** · Python · PyO3 · MIT
+**800+ tests · 99% coverage** · Python · PyO3 · MIT
 
 ### [RedOPS](https://github.com/AreteDriver/RedOPS)
 Offensive security operations platform. Recon, scanning, vulnerability analysis, and reporting — orchestrated through structured pipelines with full audit trails.
 
 **5,000+ tests** · Python · MIT
 
+### [Dossier](https://github.com/AreteDriver/Dossier)
+Local-first document intelligence. NER, classification, OCR, full-text search, forensics timeline, and entity graph analysis — all running on SQLite with zero cloud dependencies.
+
+**391 tests · 99% coverage** · Python · FastAPI · MIT
+
 ---
 
 ## Now
 
-Building coordination infrastructure for parallel AI code generation. Current focus: distributed signal bus for cross-process agent coordination (Convergent v0.6.0).
+Convergent hit v1.0.0 — stable coordination for parallel AI agents. Current focus: eval frameworks and visual workflow builders in Gorgon, plus shipping BenchGoblins (AI-powered fantasy sports verdicts) as a live product.
 
 ## Proof
 
 | | |
 |---|---|
-| **Tests across active repos** | 17,000+ |
-| **Projects with CI green** | 10 |
+| **Tests across active repos** | 20,000+ |
+| **Projects with CI green** | 12 |
 | **Shipped releases** | Argus Overview (2,500+ downloads), EVE Rebellion (WASM live) |
 
 ---
@@ -43,8 +48,9 @@ Building coordination infrastructure for parallel AI code generation. Current fo
 
 | Project | What | Tests |
 |---------|------|------:|
-| [Dossier](https://github.com/AreteDriver/Dossier) | Document intelligence — NER, classification, OCR, forensics | 385 |
-| [Argus Overview](https://github.com/AreteDriver/Argus_Overview) | EVE Online multi-boxing tool for Linux | 1,875 |
+| [Argus Overview](https://github.com/AreteDriver/Argus_Overview) | EVE Online multi-boxing tool for Linux (2,500+ downloads) | 1,875 |
+| [TideWise](https://github.com/AreteDriver/tidewise) | Fishing forecast engine — solunar, tides, pressure, 7 scoring factors | 373 |
+| [claudemd-forge](https://github.com/AreteDriver/claudemd-forge) | CLAUDE.md generator/auditor for AI coding agents | 230 |
 | [G13 Linux](https://github.com/AreteDriver/G13_Linux) | Logitech G13 driver — macros, RGB, LCD | 1,209 |
 | [ai-skills](https://github.com/AreteDriver/ai-skills) | 54 production skills for Claude Code agents | — |
 | [EVE Rebellion](https://github.com/AreteDriver/eve_rebellion_rust) | Arcade shooter — Rust/Bevy, 4 campaigns, WASM | 163 |
