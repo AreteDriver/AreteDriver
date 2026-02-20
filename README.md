@@ -33,7 +33,7 @@ Six CLI tools for AI-assisted development:
 |------|------|------:|
 | [promptctl](https://github.com/AreteDriver/promptctl) | Claude API toolkit — prompt engineering, code review, doc intelligence | 286 |
 | [memboot](https://github.com/AreteDriver/memboot) | Zero-infra persistent memory for LLMs — SQLite + TF-IDF vector search | 285 |
-| [claudemd-forge](https://github.com/AreteDriver/claudemd-forge) | CLAUDE.md generator/auditor for AI coding agents | 259 |
+| [claudemd-forge](https://github.com/Arete-Consortium/claudemd-forge) | CLAUDE.md generator/auditor for AI coding agents | 259 |
 | [ai-spend](https://github.com/AreteDriver/ai-spend) | AI API cost aggregator — Anthropic + OpenAI billing in one view | 222 |
 | [agent-audit](https://github.com/AreteDriver/agent-audit) | Workflow YAML cost estimator + linter for agent pipelines | 193 |
 | [mcp-manager](https://github.com/AreteDriver/mcp-manager) | MCP server manager — discover, monitor, manage across IDEs | 139 |
@@ -51,9 +51,19 @@ Six CLI tools for AI-assisted development:
 
 ---
 
+## Products — [Arete Consortium](https://github.com/Arete-Consortium)
+
+| Product | What |
+|---------|------|
+| [BenchGoblins](https://github.com/Arete-Consortium/BenchGoblins) | League-centric AI fantasy sports decision engine |
+| [ClaudeMD Forge](https://github.com/Arete-Consortium/claudemd-forge) | CLAUDE.md generator/auditor — shipping to PyPI |
+| [Gorgon Media Engine](https://github.com/Arete-Consortium/gorgon-media-engine) | Autonomous AI content system — 3 channels, 8 languages |
+
+---
+
 ## Now
 
-Animus v2.0.0 shipped — consolidated Gorgon + Convergent into a single monorepo with 9,300+ tests. Current focus: dev tools portfolio and content automation via marketing-engine.
+Animus v2.0.0 shipped — consolidated Gorgon + Convergent into a single monorepo with 9,300+ tests. Current focus: product portfolio at [Arete Consortium](https://github.com/Arete-Consortium) and dev tools distribution.
 
 ## Proof
 
