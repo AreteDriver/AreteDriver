@@ -6,17 +6,12 @@
 
 ---
 
-## Pinned
+## Flagship
 
-### [Gorgon](https://github.com/AreteDriver/Gorgon)
-Production runtime for AI agent workflows. 10 specialized agents coordinate across pipelines with budget enforcement, automatic checkpoints, and circuit breakers. Every run is auditable and resumable.
+### [Animus](https://github.com/AreteDriver/animus)
+AI exocortex and multi-agent orchestration monorepo. Three packages: Core (personal AI with learning system and proactive engine), Forge (workflow runtime with 10 agent archetypes, budget enforcement, quality gates, and checkpoints), and Quorum (coordination protocol for parallel agents, [live on PyPI](https://pypi.org/project/convergentAI/)).
 
-**7,200+ tests · 89% coverage** · Python · FastAPI · MIT
-
-### [Convergent](https://github.com/AreteDriver/convergent)
-Coordination library for multi-agent systems. Agents share an intent graph, detect overlaps before building, and converge on compatible outputs — eliminating rework from parallel code generation. Zero dependencies, optional Rust acceleration.
-
-**800+ tests · 99% coverage** · Python · PyO3 · MIT
+**9,300+ tests · 96% coverage** · Python · PyO3 · MIT
 
 ### [RedOPS](https://github.com/AreteDriver/RedOPS)
 Offensive security operations platform. Recon, scanning, vulnerability analysis, and reporting — orchestrated through structured pipelines with full audit trails.
@@ -24,23 +19,24 @@ Offensive security operations platform. Recon, scanning, vulnerability analysis,
 **5,000+ tests** · Python · MIT
 
 ### [Dossier](https://github.com/AreteDriver/Dossier)
-Local-first document intelligence. NER, classification, OCR, full-text search, forensics timeline, and entity graph analysis — all running on SQLite with zero cloud dependencies.
+Local-first document intelligence. NER, classification, OCR, full-text search, forensics timeline, and entity graph analysis — all on SQLite with zero cloud dependencies.
 
 **391 tests · 99% coverage** · Python · FastAPI · MIT
 
 ---
 
-## Now
+## Dev Tools
 
-Convergent hit v1.0.0 — stable coordination for parallel AI agents. Current focus: eval frameworks and visual workflow builders in Gorgon, plus shipping BenchGoblins (AI-powered fantasy sports verdicts) as a live product.
+Six CLI tools for AI-assisted development:
 
-## Proof
-
-| | |
-|---|---|
-| **Tests across active repos** | 20,000+ |
-| **Projects with CI green** | 12 |
-| **Shipped releases** | Argus Overview (2,500+ downloads), EVE Rebellion (WASM live) |
+| Tool | What | Tests |
+|------|------|------:|
+| [promptctl](https://github.com/AreteDriver/promptctl) | Claude API toolkit — prompt engineering, code review, doc intelligence | 286 |
+| [memboot](https://github.com/AreteDriver/memboot) | Zero-infra persistent memory for LLMs — SQLite + TF-IDF vector search | 285 |
+| [claudemd-forge](https://github.com/AreteDriver/claudemd-forge) | CLAUDE.md generator/auditor for AI coding agents | 259 |
+| [ai-spend](https://github.com/AreteDriver/ai-spend) | AI API cost aggregator — Anthropic + OpenAI billing in one view | 222 |
+| [agent-audit](https://github.com/AreteDriver/agent-audit) | Workflow YAML cost estimator + linter for agent pipelines | 193 |
+| [mcp-manager](https://github.com/AreteDriver/mcp-manager) | MCP server manager — discover, monitor, manage across IDEs | 139 |
 
 ---
 
@@ -49,19 +45,30 @@ Convergent hit v1.0.0 — stable coordination for parallel AI agents. Current fo
 | Project | What | Tests |
 |---------|------|------:|
 | [Argus Overview](https://github.com/AreteDriver/Argus_Overview) | EVE Online multi-boxing tool for Linux (2,500+ downloads) | 1,875 |
+| [marketing-engine](https://github.com/AreteDriver/marketing-engine) | LLM-powered content pipeline + platform API publishing | 581 |
 | [TideWise](https://github.com/AreteDriver/tidewise) | Fishing forecast engine — solunar, tides, pressure, 7 scoring factors | 373 |
-| [claudemd-forge](https://github.com/AreteDriver/claudemd-forge) | CLAUDE.md generator/auditor for AI coding agents | 230 |
-| [G13 Linux](https://github.com/AreteDriver/G13_Linux) | Logitech G13 driver — macros, RGB, LCD | 1,209 |
-| [ai-skills](https://github.com/AreteDriver/ai-skills) | 54 production skills for Claude Code agents | — |
-| [EVE Rebellion](https://github.com/AreteDriver/eve_rebellion_rust) | Arcade shooter — Rust/Bevy, 4 campaigns, WASM | 163 |
-| [EVE Gatekeeper](https://github.com/AreteDriver/EVE_Gatekeeper) | Fleet intel + route planning — backend, mobile, desktop | 2,099 |
+| [ai-skills](https://github.com/AreteDriver/ai-skills) | 66 production skills for Claude Code agents | — |
+
+---
+
+## Now
+
+Animus v2.0.0 shipped — consolidated Gorgon + Convergent into a single monorepo with 9,300+ tests. Current focus: dev tools portfolio and content automation via marketing-engine.
+
+## Proof
+
+| | |
+|---|---|
+| **Tests across active repos** | 24,000+ |
+| **Projects with CI green** | 15+ |
+| **Shipped releases** | Argus Overview (2,500+ downloads), convergentAI (PyPI) |
 
 ---
 
 ## Technical Profile
 
-**Languages:** Python, Rust, TypeScript, Swift
-**AI:** Claude API, OpenAI, multi-agent orchestration, prompt engineering
+**Languages:** Python, Rust, TypeScript
+**AI:** Claude API, OpenAI, Ollama, multi-agent orchestration, prompt engineering
 **Infrastructure:** FastAPI, SQLite, PostgreSQL, Docker, GitHub Actions, Linux
 **Specialty:** Production AI systems — budget controls, agent coordination, resilience patterns
 
