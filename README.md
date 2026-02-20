@@ -55,8 +55,9 @@ Six CLI tools for AI-assisted development:
 
 | Product | What |
 |---------|------|
-| [BenchGoblins](https://github.com/Arete-Consortium/BenchGoblins) | League-centric AI fantasy sports decision engine |
-| [ClaudeMD Forge](https://github.com/Arete-Consortium/claudemd-forge) | CLAUDE.md generator/auditor — shipping to PyPI |
+| [BenchGoblins](https://github.com/Arete-Consortium/BenchGoblins) | League-centric AI fantasy sports decision engine — live on Fly.io + Vercel |
+| [ClaudeMD Forge](https://github.com/Arete-Consortium/claudemd-forge) | CLAUDE.md generator/auditor for AI coding agents |
+| [Herald](https://github.com/Arete-Consortium/Herald) | Automated social promotion for GitHub releases |
 | [Gorgon Media Engine](https://github.com/Arete-Consortium/gorgon-media-engine) | Autonomous AI content system — 3 channels, 8 languages |
 
 ---
