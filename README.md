@@ -9,9 +9,9 @@
 ## Flagship
 
 ### [Animus](https://github.com/AreteDriver/animus)
-AI exocortex and multi-agent orchestration monorepo. Three packages: Core (personal AI with learning system and proactive engine), Forge (workflow runtime with 10 agent archetypes, budget enforcement, quality gates, and checkpoints), and Quorum (coordination protocol for parallel agents, [live on PyPI](https://pypi.org/project/convergentAI/)).
+AI exocortex and multi-agent orchestration monorepo. Four packages: Core (personal AI with memory and learning system), Forge (workflow runtime with budget enforcement, quality gates, and checkpoints — deployed as systemd service), Quorum (decentralized coordination protocol, [live on PyPI](https://pypi.org/project/convergentAI/)), and Bootstrap (install daemon and dashboard).
 
-**9,300+ tests · 96% coverage** · Python · PyO3 · MIT
+**9,600+ tests · 85-97% coverage per package** · Python · PyO3 · MIT
 
 ### [RedOPS](https://github.com/AreteDriver/RedOPS)
 Offensive security operations platform. Recon, scanning, vulnerability analysis, and reporting — orchestrated through structured pipelines with full audit trails.
@@ -55,16 +55,15 @@ Six CLI tools for AI-assisted development:
 
 | Product | What |
 |---------|------|
-| [BenchGoblins](https://github.com/Arete-Consortium/BenchGoblins) | League-centric AI fantasy sports decision engine — live on Fly.io + Vercel |
-| [ClaudeMD Forge](https://github.com/Arete-Consortium/claudemd-forge) | CLAUDE.md generator/auditor for AI coding agents |
-| [Herald](https://github.com/Arete-Consortium/Herald) | Automated social promotion for GitHub releases |
+| [BenchGoblins](https://benchgoblins.com) | League-centric AI fantasy sports decision engine — live on Fly.io + Vercel |
 | [Gorgon Media Engine](https://github.com/Arete-Consortium/gorgon-media-engine) | Autonomous AI content system — 3 channels, 8 languages |
+| Herald | Automated social promotion for GitHub releases — Reddit, X, LinkedIn |
 
 ---
 
 ## Now
 
-Animus v2.0.0 shipped — consolidated Gorgon + Convergent into a single monorepo with 9,300+ tests. Current focus: product portfolio at [Arete Consortium](https://github.com/Arete-Consortium) and dev tools distribution.
+Animus v2.0.0 shipped — four-package monorepo with 9,600+ tests. Forge API deployed as a systemd service. Quorum coordination protocol live on PyPI. Current focus: making repos interview-ready and dev tools distribution.
 
 ## Proof
 
