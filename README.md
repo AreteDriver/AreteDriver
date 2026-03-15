@@ -48,7 +48,7 @@ Real-time 30 FPS window previews, team management, auto-tiling layouts, EVE sett
 |------|------|------:|
 | [promptctl](https://github.com/AreteDriver/promptctl) | Claude API toolkit — prompt engineering, code review, doc intelligence | 286 |
 | [memboot](https://github.com/AreteDriver/memboot) | Zero-infra persistent memory for LLMs — SQLite + TF-IDF ([PyPI](https://pypi.org/project/memboot/)) | 285 |
-| [claudemd-forge](https://github.com/Arete-Consortium/claudemd-forge) | CLAUDE.md generator/auditor for AI coding agents ([PyPI](https://pypi.org/project/claudemd-forge/)) | 569 |
+| [anchormd](https://github.com/Arete-Consortium/anchormd) | AI agent context file generator/auditor + tech debt scanner ([PyPI](https://pypi.org/project/anchormd/)) | 693 |
 | [ai-spend](https://github.com/AreteDriver/ai-spend) | AI API cost aggregator — Anthropic + OpenAI billing in one view | 222 |
 | [mcp-manager](https://github.com/AreteDriver/mcp-manager) | MCP server manager — discover, monitor, manage across IDEs | 139 |
 
