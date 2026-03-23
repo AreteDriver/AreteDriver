@@ -125,4 +125,4 @@ Standard work, visual management, poka-yoke — applied to software.
 
 ---
 
-[LinkedIn](https://linkedin.com/in/james-young-3b77b3120) · [Substack](https://substack.com/@aretedriver) · Portland, OR
+[LinkedIn](https://linkedin.com/in/james-young-3b77b3120) · [Substack](https://substack.com/@aretedriver) · [Discord](https://discord.gg/fdzQkrt8) · Portland, OR
