@@ -37,6 +37,8 @@
 
 ## Open Source
 
+[**Animus**](https://github.com/AreteDriver/animus-docs) -- Multi-agent orchestration framework with budget controls, quality gates, and checkpoint/resume.
+
 [**DOSSIER**](https://github.com/AreteDriver/dossier-docs) -- Document intelligence platform. Ingest PDFs/emails/scans, extract entities, surface relationships.
 
 [**Argus Overview**](https://github.com/AreteDriver/Argus_Overview) -- Linux multi-window manager for EVE Online. 26,000+ downloads. [PyPI](https://pypi.org/project/argus-overview/)
