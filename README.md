@@ -14,11 +14,9 @@
 
 [**EVE Gatekeeper**](https://edengk.com) -- Route intelligence platform for EVE Online with interactive map and gate camp warnings. [GitHub](https://github.com/Arete-Consortium/Gatekeeper)
 
-**Frontier Tribe OS** -- Corp operations dashboard for EVE Frontier. Kill feed, briefings, system intelligence, alert config.
+**WatchTower / Witness** -- On-chain intelligence and Dossier NFTs for EVE Frontier. Discord integration, oracle loop, entity profiling. [GitHub](https://github.com/AreteDriver/watchtower)
 
-**WatchTower / Witness** -- On-chain intelligence and Dossier NFTs for EVE Frontier. Discord integration, oracle loop, entity profiling.
-
-**Monolith** -- Anomaly detection engine for EVE Frontier. Detection rules, public API, webhook subscriptions.
+**Monolith** -- Anomaly detection engine for EVE Frontier. Detection rules, public API, webhook subscriptions. [GitHub](https://github.com/AreteDriver/monolith)
 
 ---
 
