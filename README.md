@@ -14,9 +14,9 @@
 
 [**EVE Gatekeeper**](https://edengk.com) -- Route intelligence platform for EVE Online with interactive map and gate camp warnings. [GitHub](https://github.com/Arete-Consortium/Gatekeeper)
 
-**WatchTower / Witness** -- On-chain intelligence and Dossier NFTs for EVE Frontier. Discord integration, oracle loop, entity profiling. [GitHub](https://github.com/AreteDriver/watchtower)
+[**WatchTower / Witness**](https://github.com/AreteDriver/watchtower) -- On-chain intelligence and Dossier NFTs for EVE Frontier. Discord integration, oracle loop, entity profiling.
 
-**Monolith** -- Anomaly detection engine for EVE Frontier. Detection rules, public API, webhook subscriptions. [GitHub](https://github.com/AreteDriver/monolith)
+[**Monolith**](https://github.com/AreteDriver/monolith) -- Anomaly detection engine for EVE Frontier. Detection rules, public API, webhook subscriptions.
 
 ---
 
@@ -37,9 +37,7 @@
 
 ## Open Source
 
-**Animus** -- Multi-agent orchestration framework with budget controls, quality gates, and checkpoint/resume.
-
-**DOSSIER** -- Document intelligence platform. Ingest PDFs/emails/scans, extract entities, surface relationships.
+[**DOSSIER**](https://github.com/AreteDriver/dossier-docs) -- Document intelligence platform. Ingest PDFs/emails/scans, extract entities, surface relationships.
 
 [**Argus Overview**](https://github.com/AreteDriver/Argus_Overview) -- Linux multi-window manager for EVE Online. 26,000+ downloads. [PyPI](https://pypi.org/project/argus-overview/)
 
