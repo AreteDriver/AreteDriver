@@ -1,54 +1,64 @@
 # James C. Young
 
-**AI Enablement Engineer** | Portland, OR
+**AI Enablement / Forward-Deployed Engineer** — Portland, OR
 
-17 years building reliable systems in manufacturing and logistics (IBM, Toyota Production System). Now I build AI-powered tools and ship them. Not demos -- shipped software with real users and real billing.
+I ship LLM-powered products end to end — eval harnesses, multi-agent systems, billing, deploy — and I have the operations background to make them reliable. Before software I spent 17 years running manufacturing and logistics systems (IBM, Toyota Production System): standard work, visual management, error-proofing. A system that ships predictably beats one that demos brilliantly.
 
-**[Portfolio](https://aretedriver.dev)** | **[LinkedIn](https://linkedin.com/in/jamesy-3b77b3120)** | **[Substack](https://substack.com/@aretedriver)**
+**[Portfolio](https://aretedriver.dev)** · **[LinkedIn](https://linkedin.com/in/jamesy-3b77b3120)** · **[Substack](https://substack.com/@aretedriver)** · **jamesyng79@gmail.com**
 
----
+`Python` · `TypeScript` · `React / Next.js` · `FastAPI` · `PostgreSQL / SQLite` · `LLM evaluation & routing` · `multi-agent orchestration` · `MCP servers` · `Stripe` · `CI/CD (GitHub Actions)` · `Vercel / Fly.io` · `Azure`
 
-## Live Products
-
-[**BenchGoblins**](https://benchgoblins.com) -- AI fantasy sports decision engine with scored LLM routing and commissioner tools.
-
-[**EVE Gatekeeper**](https://edengk.com) -- Route intelligence platform for EVE Online with interactive map and gate camp warnings. [GitHub](https://github.com/Arete-Consortium/Gatekeeper)
-
-[**WatchTower / Witness**](https://github.com/AreteDriver/watchtower) -- On-chain intelligence and Dossier NFTs for EVE Frontier. Discord integration, oracle loop, entity profiling.
-
-[**Monolith**](https://github.com/AreteDriver/monolith) -- Anomaly detection engine for EVE Frontier. Detection rules, public API, webhook subscriptions.
+**12+ published PyPI packages** · **several products with live Stripe billing** · **25,000+ automated tests across the portfolio** · **26,000+ downloads on the flagship tool**
 
 ---
 
-## Developer Tools -- [PyPI](https://pypi.org/user/AreteDriver/)
+## Shipped Products
+
+[**BenchGoblins**](https://benchgoblins.com) — AI fantasy-sports decision engine. Scored LLM routing under the hood, commissioner tools, live on Fly.io + Vercel with Stripe billing.
+
+[**EVE Gatekeeper**](https://edengk.com) — Route-intelligence platform for EVE Online: interactive 14-layer map, per-hop risk breakdown, gate-camp warnings. Stripe billing live. [GitHub](https://github.com/Arete-Consortium/Gatekeeper)
+
+[**anchormd**](https://anchormd.dev) — AI-agent context-file generator and auditor (CLAUDE.md / AGENTS.md). Web app + CLI + license server, Stripe billing live. `pip install anchormd`
+
+---
+
+## Developer Tools — [PyPI](https://pypi.org/user/AreteDriver/)
 
 | Tool | Description | Install |
 |------|-------------|---------|
-| [anchormd](https://anchormd.dev) | AI agent context file generator and auditor | `pip install anchormd` |
-| [agent-lint](https://github.com/AreteDriver/agent-lint) | Workflow cost estimator and anti-pattern linter | `pip install agentlinter` |
-| [context-hygiene](https://github.com/AreteDriver/context-hygiene) | Context window bloat detection and signal density scoring | `pip install context-hygiene` |
-| [promptctl](https://github.com/AreteDriver/promptctl) | Claude API toolkit for prompt engineering and code review | `pip install promptctlai` |
+| [agent-lint](https://github.com/AreteDriver/agent-lint) | Workflow cost estimator and anti-pattern linter for agent YAML | `pip install agentlinter` |
+| [context-hygiene](https://github.com/AreteDriver/context-hygiene) | Context-window bloat detection and signal-density scoring | `pip install context-hygiene` |
+| [promptctl](https://github.com/AreteDriver/promptctl) | Claude API toolkit — prompt engineering, code review | `pip install promptctlai` |
 | [ai-spend](https://github.com/AreteDriver/ai-spend) | AI API cost aggregator across providers | `pip install ai-spend` |
-| [memboot](https://github.com/AreteDriver/memboot) | Zero-infra persistent memory for LLMs | `pip install memboot` |
-| [convergentAI](https://github.com/AreteDriver/convergent) | Multi-agent conflict resolution | `pip install convergentAI` |
-| [mcp-manager](https://github.com/AreteDriver/mcp-manager) | MCP server manager across agentic IDEs | `pip install arete-mcp` |
+| [memboot](https://github.com/AreteDriver/memboot) | Zero-infra persistent memory for any LLM | `pip install memboot` |
+| [convergentAI](https://github.com/AreteDriver/convergent) | Multi-agent coordination — intent graphs, consensus voting, stigmergy | `pip install convergentAI` |
+| [mcp-manager](https://github.com/AreteDriver/mcp-manager) | Manage MCP servers across agentic IDEs | `pip install arete-mcp` |
+| [arete-cc-plugin](https://github.com/AreteDriver/arete-cc-plugin) | Portable Claude Code plugin — hooks, slash commands, subagents | — |
 
 ---
 
 ## Open Source
 
-[**Animus**](https://github.com/AreteDriver/animus-docs) -- Multi-agent orchestration framework with budget controls, quality gates, and checkpoint/resume.
+[**Aurora Arcology**](https://aurora-arcology.vercel.app) — Investigation-board framework for narrative universes: an interactive corkboard of nodes, sourced claims, and confidence-weighted connections. Next.js 15 + TypeScript + SQLite/Drizzle, runtime-editable ontology. [GitHub](https://github.com/AreteDriver/aurora-arcology) · [Live demo](https://aurora-arcology.vercel.app)
 
-[**DOSSIER**](https://github.com/AreteDriver/dossier-docs) -- Document intelligence platform. Ingest PDFs/emails/scans, extract entities, surface relationships.
+**Animus** — Multi-agent orchestration framework: budget controls, quality gates, checkpoint/resume, autonomous self-improvement loop. ~15k tests, 97% coverage. [Docs](https://github.com/AreteDriver/animus-docs)
 
-[**Argus Overview**](https://github.com/AreteDriver/Argus_Overview) -- Linux multi-window manager for EVE Online. 26,000+ downloads. [PyPI](https://pypi.org/project/argus-overview/)
+**DOSSIER** — Local-first document intelligence: ingest PDFs/emails/scans, extract entities, surface relationships, forensics timeline. [Docs](https://github.com/AreteDriver/dossier-docs)
 
-[**G13-Linux**](https://github.com/AreteDriver/G13_Linux) -- Logitech G13 Linux driver with GUI and WebSocket API. [PyPI](https://pypi.org/project/G13-Linux/)
+[**Argus Overview**](https://github.com/AreteDriver/Argus_Overview) — Linux multi-window manager for EVE Online. 26,000+ downloads. [PyPI](https://pypi.org/project/argus-overview/)
 
-[**LikX**](https://github.com/AreteDriver/LikX) -- Screenshot, annotation, and OCR for Linux. [PyPI](https://pypi.org/project/LikX/)
+[**ai-skills**](https://github.com/AreteDriver/ai-skills) — Production-ready skills for Claude Code and multi-agent systems.
+
+**EVE Frontier tooling** — [Monolith](https://github.com/AreteDriver/monolith): on-chain anomaly detector for EVE Frontier on Sui, with a live 3D-map demo of 24k systems.
 
 ---
 
-## Engineering Philosophy
+## Consulting & Writing
 
-I scaled an ice cream line from 740 pints/day to 4,800/hour using Kaizen. I apply the same thinking to software: standard work, visual management, error-proofing. A system that ships predictably beats one that demos brilliantly.
+**TIAID — Trauma-Informed AI Deployment** — a methodology for rolling out AI inside organizations without breaking the people, mapped to the NIST AI Risk Management Framework. Long-form essays on the human side of AI adoption at [The Human Stack](https://substack.com/@aretedriver).
+
+---
+
+## Background
+
+I scaled an ice-cream production line from 740 pints/day to 4,800/hour using Kaizen — and I bring the same discipline to software: ship, measure, error-proof, repeat. *See it through. Do it better. Leave something real.*
