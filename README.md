@@ -14,11 +14,11 @@ I ship LLM-powered products end to end — eval harnesses, multi-agent systems, 
 
 ## Shipped Products
 
-[**BenchGoblins**](https://benchgoblins.com) — AI fantasy-sports decision engine. Scored LLM routing under the hood, commissioner tools, live on Fly.io + Vercel with Stripe billing.
+[**BenchGoblins**](https://benchgoblins.com) — AI fantasy-sports decision engine. Scored LLM routing under the hood, commissioner tools, live on Fly.io + Vercel with Stripe billing. *Production codebase private; comparable scored-routing patterns visible in [memboot](https://github.com/AreteDriver/memboot).*
 
 [**EVE Gatekeeper**](https://edengk.com) — Route-intelligence platform for EVE Online: interactive 14-layer map, per-hop risk breakdown, gate-camp warnings. Stripe billing live. [GitHub](https://github.com/Arete-Consortium/Gatekeeper)
 
-[**anchormd**](https://anchormd.dev) — AI-agent context-file generator and auditor (CLAUDE.md / AGENTS.md). Web app + CLI + license server, Stripe billing live. `pip install anchormd`
+[**anchormd**](https://anchormd.dev) — AI-agent context-file generator and auditor (CLAUDE.md / AGENTS.md). Web app + CLI + license server, Stripe billing live. `pip install anchormd` · [GitHub](https://github.com/Arete-Consortium/anchormd)
 
 ---
 
@@ -41,15 +41,29 @@ I ship LLM-powered products end to end — eval harnesses, multi-agent systems, 
 
 [**Aurora Arcology**](https://aurora-arcology.vercel.app) — Investigation-board framework for narrative universes: an interactive corkboard of nodes, sourced claims, and confidence-weighted connections. Next.js 15 + TypeScript + SQLite/Drizzle, runtime-editable ontology. [GitHub](https://github.com/AreteDriver/aurora-arcology) · [Live demo](https://aurora-arcology.vercel.app)
 
-**Animus** — Multi-agent orchestration framework: budget controls, quality gates, checkpoint/resume, autonomous self-improvement loop. ~15k tests, 97% coverage. [Docs](https://github.com/AreteDriver/animus-docs)
+**Animus** — Multi-agent orchestration framework: budget controls, quality gates, checkpoint/resume, autonomous self-improvement loop. ~15k tests, 97% coverage. *Private repo (long-term IP); architecture + selected code in [animus-docs](https://github.com/AreteDriver/animus-docs).*
 
-**DOSSIER** — Local-first document intelligence: ingest PDFs/emails/scans, extract entities, surface relationships, forensics timeline. [Docs](https://github.com/AreteDriver/dossier-docs)
+**DOSSIER** — Local-first document intelligence: ingest PDFs/emails/scans, extract entities, surface relationships, forensics timeline. *Private repo; architecture in [dossier-docs](https://github.com/AreteDriver/dossier-docs).*
 
 [**Argus Overview**](https://github.com/AreteDriver/Argus_Overview) — Linux multi-window manager for EVE Online. 26,000+ downloads. [PyPI](https://pypi.org/project/argus-overview/)
 
 [**ai-skills**](https://github.com/AreteDriver/ai-skills) — Production-ready skills for Claude Code and multi-agent systems.
 
+[**production-Test01**](https://github.com/AreteDriver/production-Test01) — Multi-persona operational-intelligence monorepo: supervisor analytics, floor-team execution tooling, TV dashboards, REST API on a shared SQLite/Drizzle core. Synthetic data, portfolio artifact.
+
 **EVE Frontier tooling** — [Monolith](https://github.com/AreteDriver/monolith): on-chain anomaly detector for EVE Frontier on Sui, with a live 3D-map demo of 24k systems.
+
+---
+
+## Selected Work
+
+Direct entry points for "what does the code actually look like":
+
+- **[memboot v0.7.1 — SSRF guard + credential-dir denylist](https://github.com/AreteDriver/memboot/commit/e4ba5c7)** — Semantic-security audit caught two MEDIUM findings the SAST run missed. Shipped scheme allowlist with redirect re-validation + extended default `ignore_patterns` to skip credential directories. Regression test asserts the exact attack scenarios stay out of `discover_files` output — poka-yoke against silent regression of the default skip list.
+
+- **[Argus Overview — character-logoff detection](https://github.com/AreteDriver/Argus_Overview/commit/28e609e)** — Spec-driven feature in a 26K-download tool: tracker subscribes to existing `character_gone` signal, idempotent slot, 11 new tests including p95 latency under 5ms across 100 trials. Architecture luck — the detection signal already existed; the work was wiring + verifying.
+
+- **[aurora-arcology — Dossier integration scoping](https://github.com/AreteDriver/aurora-arcology/blob/main/docs/dossier-bridge.md)** — Cross-project leverage analysis: four bridges from Dossier (forensic NER + briefing endpoint) into Aurora (narrative-investigation board), ranked by ROI with dependencies + effort estimates per bridge. The FDE pattern of recognizing where one product's primitives serve another's gap.
 
 ---
 
