@@ -8,7 +8,7 @@ I ship LLM-powered products end to end — eval harnesses, multi-agent systems, 
 
 `Python` · `TypeScript` · `React / Next.js` · `FastAPI` · `PostgreSQL / SQLite` · `LLM evaluation & routing` · `multi-agent orchestration` · `MCP servers` · `Stripe` · `CI/CD (GitHub Actions)` · `Vercel / Fly.io` · `Azure`
 
-**12+ published PyPI packages** · **several products with live Stripe billing** · **25,000+ automated tests across the portfolio** · **26,000+ downloads on the flagship tool**
+**12+ published PyPI packages** · **12,000+ tests across published packages** · **live Stripe billing** · **26,000+ downloads on Argus Overview**
 
 ---
 
@@ -41,7 +41,7 @@ I ship LLM-powered products end to end — eval harnesses, multi-agent systems, 
 
 [**Aurora Arcology**](https://aurora-arcology.vercel.app) — Investigation-board framework for narrative universes: an interactive corkboard of nodes, sourced claims, and confidence-weighted connections. Next.js 15 + TypeScript + SQLite/Drizzle, runtime-editable ontology. [GitHub](https://github.com/AreteDriver/aurora-arcology) · [Live demo](https://aurora-arcology.vercel.app)
 
-**Animus** — Multi-agent orchestration framework: budget controls, quality gates, checkpoint/resume, autonomous self-improvement loop. ~15k tests, 97% coverage. *Private repo (long-term IP); architecture + selected code in [animus-docs](https://github.com/AreteDriver/animus-docs).*
+**Animus** — Multi-agent orchestration framework: budget controls, quality gates, checkpoint/resume, autonomous self-improvement loop. ~17k tests across 13 packages. *Private repo (long-term IP); architecture + selected code in [animus-docs](https://github.com/AreteDriver/animus-docs).*
 
 **DOSSIER** — Local-first document intelligence: ingest PDFs/emails/scans, extract entities, surface relationships, forensics timeline. *Private repo; architecture in [dossier-docs](https://github.com/AreteDriver/dossier-docs).*
 
