@@ -8,7 +8,7 @@ I ship LLM-powered products end to end — eval harnesses, multi-agent systems, 
 
 `Python` · `TypeScript` · `React / Next.js` · `FastAPI` · `PostgreSQL / SQLite` · `LLM evaluation & routing` · `multi-agent orchestration` · `MCP servers` · `Stripe` · `CI/CD (GitHub Actions)` · `Vercel / Fly.io` · `Azure`
 
-**12+ published PyPI packages** · **12,000+ tests across published packages** · **live Stripe billing** · **26,000+ downloads on Argus Overview**
+**12+ published PyPI packages** · **12,000+ tests across published packages** · **live Stripe billing**
 
 ---
 
@@ -45,7 +45,7 @@ I ship LLM-powered products end to end — eval harnesses, multi-agent systems, 
 
 **DOSSIER** — Local-first document intelligence: ingest PDFs/emails/scans, extract entities, surface relationships, forensics timeline. *Private repo; architecture in [dossier-docs](https://github.com/AreteDriver/dossier-docs).*
 
-[**Argus Overview**](https://github.com/AreteDriver/Argus_Overview) — Linux multi-window manager for EVE Online. 26,000+ downloads. [PyPI](https://pypi.org/project/argus-overview/)
+[**Argus Overview**](https://github.com/AreteDriver/Argus_Overview) — Linux multi-window manager for EVE Online. [PyPI](https://pypi.org/project/argus-overview/)
 
 [**ai-skills**](https://github.com/AreteDriver/ai-skills) — Production-ready skills for Claude Code and multi-agent systems.
 
