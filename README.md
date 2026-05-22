@@ -4,7 +4,7 @@
 
 I ship LLM-powered products end to end — eval harnesses, multi-agent systems, billing, deploy — and I have the operations background to make them reliable. Before software I spent 17 years running manufacturing and logistics systems (IBM, Toyota Production System): standard work, visual management, error-proofing. A system that ships predictably beats one that demos brilliantly.
 
-**[Portfolio](https://aretedriver.dev)** · **[LinkedIn](https://linkedin.com/in/jamesy-3b77b3120)** · **[Substack](https://substack.com/@aretedriver)** · **jamesyng79@gmail.com**
+**[Portfolio](https://aretedriver.dev)** · **[LinkedIn](https://www.linkedin.com/in/james-y-3b77b3120)** · **[Substack](https://substack.com/@aretedriver)** · **jamesyng79@gmail.com**
 
 `Python` · `TypeScript` · `React / Next.js` · `FastAPI` · `PostgreSQL / SQLite` · `LLM evaluation & routing` · `multi-agent orchestration` · `MCP servers` · `Stripe` · `CI/CD (GitHub Actions)` · `Vercel / Fly.io` · `Azure`
 
