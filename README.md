@@ -10,6 +10,16 @@ I ship LLM-powered products end to end — eval harnesses, multi-agent systems, 
 
 **12+ published PyPI packages** · **12,000+ tests across published packages** · **live Stripe billing**
 
+## Start Here (AI Tooling)
+
+If you only look at three repos, use this path:
+
+1. [ai-skills](https://github.com/AreteDriver/ai-skills) - production-ready skill system for agentic workflows
+2. [arete-cc-plugin](https://github.com/AreteDriver/arete-cc-plugin) - Claude Code automation stack you can install now
+3. [memboot](https://github.com/AreteDriver/memboot) - offline persistent memory layer for LLM workflows
+
+If one helps you, please star it. If something breaks, open a `setup-blocker` issue and I will prioritize it.
+
 ---
 
 ## Shipped Products
