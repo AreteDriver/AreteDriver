@@ -3,3 +3,15 @@
 .env
 .env.*
 .env.local
+
+# Security: prevent secret files from being committed
+.env
+.env.local
+.envrc
+*.pem
+*.key
+id_rsa*
+id_ecdsa*
+id_ed25519*
+*.p12
+secrets.json
