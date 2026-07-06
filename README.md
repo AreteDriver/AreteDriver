@@ -74,6 +74,8 @@ If one helps you, please star it. If something breaks, open a `setup-blocker` is
 
 [**Aurora Arcology**](https://aurora-arcology.vercel.app) — Investigation-board framework for narrative universes: an interactive corkboard of nodes, sourced claims, and confidence-weighted connections. Next.js 15 + TypeScript + SQLite/Drizzle, runtime-editable ontology. [GitHub](https://github.com/AreteDriver/aurora-arcology) · [Live demo](https://aurora-arcology.vercel.app)
 
+[**chainlog**](https://github.com/AreteDriver/chainlog) — Tamper-proof audit trails for AI agents on Base L2 (Ethereum). Writes cryptographic fingerprints of actions on-chain — no PII, just hashes. Includes TypeScript + Python SDKs, CLI verifier, and a Next.js dashboard. Model version pinning for EU AI Act compliance, dead man's switch for contingency triggers.
+
 [**arete-evals**](https://github.com/AreteDriver/arete-evals) — Public eval-suite records and run artifacts from the Animus Forge calibration pipeline. See the raw results that feed the quality gates.
 
 **[Dossier](https://github.com/AreteDriver/Dossier)** — Local-first document intelligence: ingest PDFs/emails/scans, extract entities, surface relationships, forensics timeline. *Archived experiment — patterns extracted into Animus Mind v2.1.*
