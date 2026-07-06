@@ -76,6 +76,8 @@ If one helps you, please star it. If something breaks, open a `setup-blocker` is
 
 [**chainlog**](https://github.com/AreteDriver/chainlog) — Tamper-proof audit trails for AI agents on Base L2 (Ethereum). Writes cryptographic fingerprints of actions on-chain — no PII, just hashes. Includes TypeScript + Python SDKs, CLI verifier, and a Next.js dashboard. Model version pinning for EU AI Act compliance, dead man's switch for contingency triggers.
 
+[**stellar-audit-agent**](https://github.com/AreteDriver/stellar-audit-agent) — Pay-per-call AI code audit API with dual payment rails: x402 micropayments + Stripe MPP on Stellar. Autonomous Claude-powered agent discovers services, fetches repos, reasons about audit scope, pays per-request, and synthesizes results. Live demo on Fly.io. [Launch demo](https://stellar-audit-agent.fly.dev/)
+
 [**RedOPS**](https://github.com/AreteDriver/RedOPS) — Professional cybersecurity intelligence & attack surface management platform. OSINT automation, MITRE ATT&CK threat-path mapping, risk quantification (likelihood × impact), and executive-ready reporting. Strict scope enforcement and audit trails for authorized defensive assessments.
 
 [**arete-evals**](https://github.com/AreteDriver/arete-evals) — Public eval-suite records and run artifacts from the Animus Forge calibration pipeline. See the raw results that feed the quality gates.
