@@ -14,7 +14,7 @@ I ship LLM-powered products end to end — eval harnesses, multi-agent systems, 
 
 `Python` · `TypeScript` · `Rust` · `React / Next.js` · `FastAPI` · `PostgreSQL / SQLite` · `LLM evaluation & routing` · `multi-agent orchestration` · `MCP servers` · `Stripe` · `CI/CD (GitHub Actions)` · `Vercel / Fly.io` · `Azure`
 
-**16 public repos** · **15+ published PyPI packages** · **15,000+ tests across public packages** · **5 MCP servers shipped** · **live Stripe billing**
+**20+ public repos** · **15+ published PyPI packages** · **15,000+ tests across public packages** · **5 MCP servers shipped** · **live Stripe billing**
 
 ---
 
@@ -22,7 +22,7 @@ I ship LLM-powered products end to end — eval harnesses, multi-agent systems, 
 
 What I'm building right now (Derek Sivers style):
 
-- **[Animus](https://github.com/AreteDriver/animus) v2.1** — Public exocortex architecture (55K LOC, 172 files, bitemporal core, quality gates, checkpoint/resume). Linux-first open-source launch in progress.
+- **[Animus](https://github.com/AreteDriver/animus) v2.3** — Public exocortex architecture (55K LOC, 172 files, bitemporal core, quality gates, checkpoint/resume). Linux-first open-source launch in progress.
 - **Crucible** — Phase-gated transformation framework: four/five conditions, Qliphothic failure taxonomy, active/receptive polarity. Research layer under the Animus Mind-class scaffold.
 - **Local AI Stack** — RX 7900 XTX powering zero-cost inference (Ollama, 4-model tiered stack). Eval calibration runs weekly against `arete-evals` suites.
 - **TIAID consulting** — `$2,500 Rapid Assessment` + `$15K–$25K Full Engagement` products for trauma-informed AI deployment inside organizations.
@@ -72,7 +72,7 @@ If one helps you, please star it. If something breaks, open a `setup-blocker` is
 
 [**Animus**](https://github.com/AreteDriver/animus) — Multi-agent orchestration framework: budget controls, quality gates, checkpoint/resume, autonomous self-improvement loop. ~17K LOC across core packages. *Previously private; now public and actively developed.*
 
-[**Animus Mind**](https://github.com/AreteDriver/animus-mind) — v2.1 Mind-class architecture: bitemporal memory core, adversarial tests, deterministic quality scoring. The cognition layer behind the Animus exocortex.
+[**Animus Mind**](https://github.com/AreteDriver/animus-mind) — v2.3 Mind-class architecture: bitemporal memory core, adversarial tests, deterministic quality scoring. The cognition layer behind the Animus exocortex.
 
 [**memboot**](https://github.com/AreteDriver/memboot) — Zero-infrastructure persistent memory layer for any LLM — works with Claude Code, OpenAI Codex, Cursor, Windsurf, Claude Desktop, and Zed. Semantic-security audit caught two MEDIUM findings the SAST run missed.
 
@@ -112,7 +112,7 @@ I ship MCP servers that give AI assistants operational superpowers:
 
 ### Archived Experiments (patterns extracted)
 
-**[Dossier](https://github.com/AreteDriver/Dossier)** — Local-first document intelligence: ingest PDFs/emails/scans, extract entities, surface relationships, forensics timeline. *Patterns extracted into Animus Mind v2.1 (entity resolution, provenance tracking, forensics timeline).*
+**[Dossier](https://github.com/AreteDriver/Dossier)** — Local-first document intelligence: ingest PDFs/emails/scans, extract entities, surface relationships, forensics timeline. *Patterns extracted into Animus Mind v2.3 (entity resolution, provenance tracking, forensics timeline).*
 
 **EVE Frontier tooling** — [Monolith](https://github.com/Arete-Consortium/monolith): on-chain anomaly detector for EVE Frontier on Sui, with a live 3D-map demo of 24k systems.
 
@@ -148,7 +148,7 @@ Direct entry points for "what does the code actually look like":
 
 - **[aurora-arcology — Dossier integration scoping](https://github.com/AreteDriver/aurora-arcology/blob/main/docs/dossier-bridge.md)** — Cross-project leverage analysis: four bridges from Dossier (forensic NER + briefing endpoint) into Aurora (narrative-investigation board), ranked by ROI with dependencies + effort estimates per bridge. The FDE pattern of recognizing where one product's primitives serve another's gap.
 
-- **[Animus Mind — bitemporal core + adversarial tests](https://github.com/AreteDriver/animus-mind)** — v2.1 scaffold: bitemporal memory model with valid-time / transaction-time axes, adversarial test harness asserting quality-gate contracts before any feature ships.
+- **[Animus Mind — bitemporal core + adversarial tests](https://github.com/AreteDriver/animus-mind)** — v2.3 scaffold: bitemporal memory model with valid-time / transaction-time axes, adversarial test harness asserting quality-gate contracts before any feature ships.
 
 ### Architecture & Design Docs
 
