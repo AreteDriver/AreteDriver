@@ -22,7 +22,7 @@ I ship LLM-powered products end to end — eval harnesses, multi-agent systems, 
 
 What I'm building right now (Derek Sivers style):
 
-- **[Animus](https://github.com/AreteDriver/animus) v2.3** — Public exocortex architecture (55K LOC, 172 files, bitemporal core, quality gates, checkpoint/resume). Linux-first open-source launch in progress.
+- **[Animus](https://github.com/AreteDriver/animus) v2.3** — Sovereign AI operating environment: 55K LOC, 172 files, bitemporal core, quality gates, checkpoint/resume, generational roadmap (G1–G4). Evidence Framework tracks maturity from Concept → Self-improving. Linux-first open-source launch in progress.
 - **Crucible** — Phase-gated transformation framework: four/five conditions, Qliphothic failure taxonomy, active/receptive polarity. Research layer under the Animus Mind-class scaffold.
 - **Local AI Stack** — RX 7900 XTX powering zero-cost inference (Ollama, 4-model tiered stack). Eval calibration runs weekly against `arete-evals` suites.
 - **TIAID consulting** — `$2,500 Rapid Assessment` + `$15K–$25K Full Engagement` products for trauma-informed AI deployment inside organizations.
@@ -70,9 +70,9 @@ If one helps you, please star it. If something breaks, open a `setup-blocker` is
 
 ### AI Infrastructure & Orchestration
 
-[**Animus**](https://github.com/AreteDriver/animus) — Multi-agent orchestration framework: budget controls, quality gates, checkpoint/resume, autonomous self-improvement loop. ~17K LOC across core packages. *Previously private; now public and actively developed.*
+[**Animus**](https://github.com/AreteDriver/animus) — Sovereign AI operating environment: multi-agent orchestration with budget controls, quality gates, checkpoint/resume, autonomous self-improvement, and Evidence Framework maturity tracking. ~17K LOC across core packages. *Previously private; now public and actively developed.*
 
-[**Animus Mind**](https://github.com/AreteDriver/animus-mind) — v2.3 Mind-class architecture: bitemporal memory core, adversarial tests, deterministic quality scoring. The cognition layer behind the Animus exocortex.
+[**Animus Mind**](https://github.com/AreteDriver/animus-mind) — v2.3 Mind-class architecture: bitemporal memory core, adversarial tests, deterministic quality scoring, Architect Citizen for autonomous improvement proposals. The cognition layer behind the Animus exocortex.
 
 [**memboot**](https://github.com/AreteDriver/memboot) — Zero-infrastructure persistent memory layer for any LLM — works with Claude Code, OpenAI Codex, Cursor, Windsurf, Claude Desktop, and Zed. Semantic-security audit caught two MEDIUM findings the SAST run missed.
 
@@ -148,13 +148,14 @@ Direct entry points for "what does the code actually look like":
 
 - **[aurora-arcology — Dossier integration scoping](https://github.com/AreteDriver/aurora-arcology/blob/main/docs/dossier-bridge.md)** — Cross-project leverage analysis: four bridges from Dossier (forensic NER + briefing endpoint) into Aurora (narrative-investigation board), ranked by ROI with dependencies + effort estimates per bridge. The FDE pattern of recognizing where one product's primitives serve another's gap.
 
-- **[Animus Mind — bitemporal core + adversarial tests](https://github.com/AreteDriver/animus-mind)** — v2.3 scaffold: bitemporal memory model with valid-time / transaction-time axes, adversarial test harness asserting quality-gate contracts before any feature ships.
+- **[Animus Mind — bitemporal core + adversarial tests](https://github.com/AreteDriver/animus-mind)** — v2.3 scaffold: bitemporal memory model with valid-time / transaction-time axes, adversarial test harness asserting quality-gate contracts before any feature ships. Architect Citizen produces ImprovementProposals from codebase observation.
 
 ### Architecture & Design Docs
 
 - **[chainlog — On-chain vs Off-chain Audit Design](https://github.com/AreteDriver/chainlog)** — Only hashes go on-chain (Base L2); zero PII leakage. Model version registry for EU AI Act compliance, dead man's switch for contingency triggers.
 - **[RedOPS — MITRE ATT&CK Mapping & Risk Scoring](https://github.com/AreteDriver/RedOPS)** — Structured threat-path generation with constrained output validation. Likelihood × impact quantification with audit-scoped enforcement.
 - **[Animus Mind — Bitemporal Memory Model](https://github.com/AreteDriver/animus-mind)** — Valid-time / transaction-time axes adapted from temporal database research (Snodgrass & Jensen). Adversarial test patterns prevent regression of quality-gate contracts.
+- **[Animus Evidence Framework](https://github.com/AreteDriver/animus/blob/main/docs/evidence-framework.md)** — Six-stage maturity model (Concept → Self-improving) with Coverage KPI. Makes "documented but unverified" into "inspectable evidence."
 
 ---
 
