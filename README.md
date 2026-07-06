@@ -76,6 +76,8 @@ If one helps you, please star it. If something breaks, open a `setup-blocker` is
 
 [**arete-evals**](https://github.com/AreteDriver/arete-evals) — Public eval-suite records and run artifacts from the Animus Forge calibration pipeline. See the raw results that feed the quality gates.
 
+**[Dossier](https://github.com/AreteDriver/Dossier)** — Local-first document intelligence: ingest PDFs/emails/scans, extract entities, surface relationships, forensics timeline. *Archived experiment — patterns extracted into Animus Mind v2.1.*
+
 [**Argus Overview**](https://github.com/AreteDriver/Argus_Overview) — Linux multi-window manager for EVE Online. [PyPI](https://pypi.org/project/argus-overview/)
 
 [**ai-skills**](https://github.com/Arete-Consortium/ai-skills) — Production-ready skills for Claude Code and multi-agent systems.
