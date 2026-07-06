@@ -60,7 +60,7 @@ If one helps you, please star it. If something breaks, open a `setup-blocker` is
 | [promptctl](https://github.com/AreteDriver/promptctl) | Claude API toolkit — prompt engineering, code review | `pip install promptctlai` |
 | [ai-spend](https://github.com/AreteDriver/ai-spend) | AI API cost aggregator across providers | `pip install ai-spend` |
 | [memboot](https://github.com/AreteDriver/memboot) | Zero-infra persistent memory for any LLM | `pip install memboot` |
-| [convergentAI](https://github.com/AreteDriver/convergent) | Multi-agent coordination — intent graphs, consensus voting, stigmergy | `pip install convergentAI` |
+| [convergentAI](https://github.com/Arete-Consortium/convergent) | Multi-agent coordination — intent graphs, consensus voting, stigmergy | `pip install convergentAI` |
 | [mcp-manager](https://github.com/AreteDriver/mcp-manager) | Manage MCP servers across agentic IDEs | `pip install arete-mcp` |
 | [arete-cc-plugin](https://github.com/AreteDriver/arete-cc-plugin) *(archived)* | Portable Claude Code plugin — hooks, slash commands, subagents | — |
 
@@ -108,7 +108,7 @@ I ship MCP servers that give AI assistants operational superpowers:
 
 [**ai-session-templates**](https://github.com/AreteDriver/ai-session-templates) — Structured session templates for Claude Code, Codex, and repo-aware coding agents.
 
-[**Argus Overview**](https://github.com/AreteDriver/Argus_Overview) — Linux multi-window manager for EVE Online. [PyPI](https://pypi.org/project/argus-overview/) · 26K+ downloads.
+[**Argus Overview**](https://github.com/Arete-Consortium/Argus_Overview) — Linux multi-window manager for EVE Online. [PyPI](https://pypi.org/project/argus-overview/) · 26K+ downloads.
 
 ### Archived Experiments (patterns extracted)
 
@@ -144,7 +144,7 @@ Direct entry points for "what does the code actually look like":
 
 - **[memboot v0.7.1 — SSRF guard + credential-dir denylist](https://github.com/AreteDriver/memboot/commit/e4ba5c7)** — Semantic-security audit caught two MEDIUM findings the SAST run missed. Shipped scheme allowlist with redirect re-validation + extended default `ignore_patterns` to skip credential directories. Regression test asserts the exact attack scenarios stay out of `discover_files` output — poka-yoke against silent regression of the default skip list.
 
-- **[Argus Overview — character-logoff detection](https://github.com/AreteDriver/Argus_Overview/commit/28e609e)** — Spec-driven feature in a 26K-download tool: tracker subscribes to existing `character_gone` signal, idempotent slot, 11 new tests including p95 latency under 5ms across 100 trials. Architecture luck — the detection signal already existed; the work was wiring + verifying.
+- **[Argus Overview — character-logoff detection](https://github.com/Arete-Consortium/Argus_Overview/commit/28e609e)** — Spec-driven feature in a 26K-download tool: tracker subscribes to existing `character_gone` signal, idempotent slot, 11 new tests including p95 latency under 5ms across 100 trials. Architecture luck — the detection signal already existed; the work was wiring + verifying.
 
 - **[aurora-arcology — Dossier integration scoping](https://github.com/AreteDriver/aurora-arcology/blob/main/docs/dossier-bridge.md)** — Cross-project leverage analysis: four bridges from Dossier (forensic NER + briefing endpoint) into Aurora (narrative-investigation board), ranked by ROI with dependencies + effort estimates per bridge. The FDE pattern of recognizing where one product's primitives serve another's gap.
 
