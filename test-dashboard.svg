@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="240" viewBox="0 0 600 240">
+  <!-- Background -->
+  <rect width="600" height="240" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="20" y="28" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="600">Test Coverage Dashboard</text>
+  <text x="20" y="48" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11">Public suites across active repos · Last updated: 2026-07-05</text>
+
+  <!-- Animus Kernel bar -->
+  <rect x="140" y="68" width="358" height="22" rx="4" fill="#238636" />
+  <text x="20" y="84" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="500">Animus Kernel</text>
+  <text x="510" y="84" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600">251</text>
+
+  <!-- BenchGoblins bar -->
+  <rect x="140" y="100" width="380" height="22" rx="4" fill="#1f6feb" />
+  <text x="20" y="116" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="500">BenchGoblins</text>
+  <text x="532" y="116" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600">4,074</text>
+
+  <!-- memboot bar -->
+  <rect x="140" y="132" width="60" height="22" rx="4" fill="#8957e5" />
+  <text x="20" y="148" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="500">memboot</text>
+  <text x="212" y="148" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600">40+</text>
+
+  <!-- arete-evals bar -->
+  <rect x="140" y="164" width="45" height="22" rx="4" fill="#d29922" />
+  <text x="20" y="180" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="500">arete-evals</text>
+  <text x="197" y="180" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600">3 suites</text>
+
+  <!-- Legend -->
+  <text x="20" y="214" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10">✅ = All passing · 🔄 = Weekly calibration · See raw artifacts in</text>
+  <text x="20" y="230" fill="#58a6ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="600">AreteDriver/arete-evals</text>
+</svg>
