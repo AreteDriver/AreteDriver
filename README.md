@@ -14,7 +14,7 @@ I ship LLM-powered products end to end — eval harnesses, multi-agent systems, 
 
 `Python` · `TypeScript` · `Rust` · `React / Next.js` · `FastAPI` · `PostgreSQL / SQLite` · `LLM evaluation & routing` · `multi-agent orchestration` · `MCP servers` · `Stripe` · `CI/CD (GitHub Actions)` · `Vercel / Fly.io` · `Azure`
 
-**30+ active projects** · **15+ published PyPI packages** · **15,000+ tests across public packages** · **live Stripe billing**
+**16 public repos** · **15+ published PyPI packages** · **15,000+ tests across public packages** · **5 MCP servers shipped** · **live Stripe billing**
 
 ---
 
@@ -33,8 +33,8 @@ What I'm building right now (Derek Sivers style):
 
 If you only look at three repos, use this path:
 
-1. **[ai-skills](https://github.com/Arete-Consortium/ai-skills)** — Production-ready skill system for Claude Code and multi-agent workflows
-2. **[ai-session-templates](https://github.com/Arete-Consortium/ai-session-templates)** — Structured session templates for Claude Code, Codex, and repo-aware coding agents
+1. **[ai-skills](https://github.com/AreteDriver/ai-skills)** — Production-ready skill system for Claude Code and multi-agent workflows
+2. **[ai-session-templates](https://github.com/AreteDriver/ai-session-templates)** — Structured session templates for Claude Code, Codex, and repo-aware coding agents
 3. **[memboot](https://github.com/AreteDriver/memboot)** — Zero-infrastructure persistent memory layer for any LLM
 
 If one helps you, please star it. If something breaks, open a `setup-blocker` issue and I will prioritize it.
@@ -68,29 +68,51 @@ If one helps you, please star it. If something breaks, open a `setup-blocker` is
 
 ## Open Source
 
+### AI Infrastructure & Orchestration
+
 [**Animus**](https://github.com/AreteDriver/animus) — Multi-agent orchestration framework: budget controls, quality gates, checkpoint/resume, autonomous self-improvement loop. ~17K LOC across core packages. *Previously private; now public and actively developed.*
 
 [**Animus Mind**](https://github.com/AreteDriver/animus-mind) — v2.1 Mind-class architecture: bitemporal memory core, adversarial tests, deterministic quality scoring. The cognition layer behind the Animus exocortex.
 
-[**Aurora Arcology**](https://aurora-arcology.vercel.app) — Investigation-board framework for narrative universes: an interactive corkboard of nodes, sourced claims, and confidence-weighted connections. Next.js 15 + TypeScript + SQLite/Drizzle, runtime-editable ontology. [GitHub](https://github.com/AreteDriver/aurora-arcology) · [Live demo](https://aurora-arcology.vercel.app)
+[**memboot**](https://github.com/AreteDriver/memboot) — Zero-infrastructure persistent memory layer for any LLM — works with Claude Code, OpenAI Codex, Cursor, Windsurf, Claude Desktop, and Zed. Semantic-security audit caught two MEDIUM findings the SAST run missed.
+
+[**arete-evals**](https://github.com/AreteDriver/arete-evals) — Public eval-suite records and run artifacts from the Animus Forge calibration pipeline. Bootstrap A/B comparison, weekly calibration, rubric-based scoring.
+
+### Security & Operational Intelligence
+
+[**RedOPS**](https://github.com/AreteDriver/RedOPS) — Professional cybersecurity intelligence & attack surface management platform. OSINT automation, MITRE ATT&CK threat-path mapping, risk quantification (likelihood × impact), and executive-ready reporting. Strict scope enforcement and audit trails for authorized defensive assessments.
+
+[**overwatch**](https://github.com/AreteDriver/overwatch) — Tactical ISR dashboard — unifies YOLO object detections, OSINT intel feeds, and drone telemetry into a single operational picture. Entity resolution, auto-briefing SITREP generation, geofencing, real-time WebSocket feed, and an 8-tab Streamlit dashboard.
+
+### Blockchain & Verifiable Audit
 
 [**chainlog**](https://github.com/AreteDriver/chainlog) — Tamper-proof audit trails for AI agents on Base L2 (Ethereum). Writes cryptographic fingerprints of actions on-chain — no PII, just hashes. Includes TypeScript + Python SDKs, CLI verifier, and a Next.js dashboard. Model version pinning for EU AI Act compliance, dead man's switch for contingency triggers.
 
 [**stellar-audit-agent**](https://github.com/AreteDriver/stellar-audit-agent) — Pay-per-call AI code audit API with dual payment rails: x402 micropayments + Stripe MPP on Stellar. Autonomous Claude-powered agent discovers services, fetches repos, reasons about audit scope, pays per-request, and synthesizes results. Live demo on Fly.io. [Launch demo](https://stellar-audit-agent.fly.dev/)
 
-[**RedOPS**](https://github.com/AreteDriver/RedOPS) — Professional cybersecurity intelligence & attack surface management platform. OSINT automation, MITRE ATT&CK threat-path mapping, risk quantification (likelihood × impact), and executive-ready reporting. Strict scope enforcement and audit trails for authorized defensive assessments.
+### MCP Ecosystem
 
-[**azure-ops-mcp**](https://github.com/AreteDriver/azure-ops-mcp) — Azure Operations MCP Server — a resident SRE with persistent memory (ChromaDB), self-improving detection rules that learn from outcomes, and cost-aware operations. 13 tools for resource inventory, cost analysis, incident detection, and remediation. Semantic Kernel integration.
+I ship MCP servers that give AI assistants operational superpowers:
 
-[**overwatch**](https://github.com/AreteDriver/overwatch) — Tactical ISR dashboard — unifies YOLO object detections, OSINT intel feeds, and drone telemetry into a single operational picture. Entity resolution, auto-briefing SITREP generation, geofencing, real-time WebSocket feed, and an 8-tab Streamlit dashboard.
+| Server | Domain | Tools | Key Feature |
+|--------|--------|-------|-------------|
+| [**azure-ops-mcp**](https://github.com/AreteDriver/azure-ops-mcp) | Azure infrastructure | 13 (9 free + 4 Pro) | Self-improving detection rules + ChromaDB persistent memory |
+| [**stellar-audit-agent**](https://github.com/AreteDriver/stellar-audit-agent) | Code audit + payments | 3 audit endpoints | Autonomous agent loop with x402 micropayments |
+| *Animus Forge* (in [animus](https://github.com/AreteDriver/animus)) | Eval + quality gates | — | Adversarial test execution via MCP |
 
-[**arete-evals**](https://github.com/AreteDriver/arete-evals) — Public eval-suite records and run artifacts from the Animus Forge calibration pipeline. See the raw results that feed the quality gates.
+### Developer Tools & Frameworks
 
-**[Dossier](https://github.com/AreteDriver/Dossier)** — Local-first document intelligence: ingest PDFs/emails/scans, extract entities, surface relationships, forensics timeline. *Archived experiment — patterns extracted into Animus Mind v2.1.*
+[**Aurora Arcology**](https://aurora-arcology.vercel.app) — Investigation-board framework for narrative universes: an interactive corkboard of nodes, sourced claims, and confidence-weighted connections. Next.js 15 + TypeScript + SQLite/Drizzle, runtime-editable ontology. [GitHub](https://github.com/AreteDriver/aurora-arcology) · [Live demo](https://aurora-arcology.vercel.app)
 
-[**Argus Overview**](https://github.com/AreteDriver/Argus_Overview) — Linux multi-window manager for EVE Online. [PyPI](https://pypi.org/project/argus-overview/)
+[**ai-skills**](https://github.com/AreteDriver/ai-skills) — Production-ready skills for Claude Code and multi-agent systems.
 
-[**ai-skills**](https://github.com/Arete-Consortium/ai-skills) — Production-ready skills for Claude Code and multi-agent systems.
+[**ai-session-templates**](https://github.com/AreteDriver/ai-session-templates) — Structured session templates for Claude Code, Codex, and repo-aware coding agents.
+
+[**Argus Overview**](https://github.com/AreteDriver/Argus_Overview) — Linux multi-window manager for EVE Online. [PyPI](https://pypi.org/project/argus-overview/) · 26K+ downloads.
+
+### Archived Experiments (patterns extracted)
+
+**[Dossier](https://github.com/AreteDriver/Dossier)** — Local-first document intelligence: ingest PDFs/emails/scans, extract entities, surface relationships, forensics timeline. *Patterns extracted into Animus Mind v2.1 (entity resolution, provenance tracking, forensics timeline).*
 
 **EVE Frontier tooling** — [Monolith](https://github.com/Arete-Consortium/monolith): on-chain anomaly detector for EVE Frontier on Sui, with a live 3D-map demo of 24k systems.
 
@@ -107,6 +129,9 @@ I treat test coverage and eval calibration as first-class deliverables. Here's t
 | **Animus Kernel** | 179 kernel + 72 head | ✅ All green | forge-personal-quality, forge-code-edit |
 | **BenchGoblins** | 4,074 / 4,075 | ✅ 99.97% pass | provider-conformance, roster-integrity |
 | **memboot** | 40+ (semantic security) | ✅ All green | SSRF-scoped, credential-denylist |
+| **chainlog** | 70+ (TS SDK + Python SDK + contracts) | ✅ All green | — |
+| **RedOPS** | 100+ (security + intel modules) | ✅ All green | — |
+| **overwatch** | 20+ (API + briefing + entities) | ✅ All green | — |
 | **arete-evals** | 3 suites, 2 rubrics | 🔄 Weekly calibration | bootstrap A/B comparison |
 
 **Latest calibration run:** `2026-07-02` — config_loader + rate_limiter test cases under repair; weekly schedule resumes after fixes. [View history →](https://github.com/AreteDriver/arete-evals)
@@ -124,6 +149,12 @@ Direct entry points for "what does the code actually look like":
 - **[aurora-arcology — Dossier integration scoping](https://github.com/AreteDriver/aurora-arcology/blob/main/docs/dossier-bridge.md)** — Cross-project leverage analysis: four bridges from Dossier (forensic NER + briefing endpoint) into Aurora (narrative-investigation board), ranked by ROI with dependencies + effort estimates per bridge. The FDE pattern of recognizing where one product's primitives serve another's gap.
 
 - **[Animus Mind — bitemporal core + adversarial tests](https://github.com/AreteDriver/animus-mind)** — v2.1 scaffold: bitemporal memory model with valid-time / transaction-time axes, adversarial test harness asserting quality-gate contracts before any feature ships.
+
+### Architecture & Design Docs
+
+- **[chainlog — On-chain vs Off-chain Audit Design](https://github.com/AreteDriver/chainlog)** — Only hashes go on-chain (Base L2); zero PII leakage. Model version registry for EU AI Act compliance, dead man's switch for contingency triggers.
+- **[RedOPS — MITRE ATT&CK Mapping & Risk Scoring](https://github.com/AreteDriver/RedOPS)** — Structured threat-path generation with constrained output validation. Likelihood × impact quantification with audit-scoped enforcement.
+- **[Animus Mind — Bitemporal Memory Model](https://github.com/AreteDriver/animus-mind)** — Valid-time / transaction-time axes adapted from temporal database research (Snodgrass & Jensen). Adversarial test patterns prevent regression of quality-gate contracts.
 
 ---
 
