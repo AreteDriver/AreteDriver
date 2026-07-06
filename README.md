@@ -80,6 +80,10 @@ If one helps you, please star it. If something breaks, open a `setup-blocker` is
 
 [**RedOPS**](https://github.com/AreteDriver/RedOPS) — Professional cybersecurity intelligence & attack surface management platform. OSINT automation, MITRE ATT&CK threat-path mapping, risk quantification (likelihood × impact), and executive-ready reporting. Strict scope enforcement and audit trails for authorized defensive assessments.
 
+[**azure-ops-mcp**](https://github.com/AreteDriver/azure-ops-mcp) — Azure Operations MCP Server — a resident SRE with persistent memory (ChromaDB), self-improving detection rules that learn from outcomes, and cost-aware operations. 13 tools for resource inventory, cost analysis, incident detection, and remediation. Semantic Kernel integration.
+
+[**overwatch**](https://github.com/AreteDriver/overwatch) — Tactical ISR dashboard — unifies YOLO object detections, OSINT intel feeds, and drone telemetry into a single operational picture. Entity resolution, auto-briefing SITREP generation, geofencing, real-time WebSocket feed, and an 8-tab Streamlit dashboard.
+
 [**arete-evals**](https://github.com/AreteDriver/arete-evals) — Public eval-suite records and run artifacts from the Animus Forge calibration pipeline. See the raw results that feed the quality gates.
 
 **[Dossier](https://github.com/AreteDriver/Dossier)** — Local-first document intelligence: ingest PDFs/emails/scans, extract entities, surface relationships, forensics timeline. *Archived experiment — patterns extracted into Animus Mind v2.1.*
