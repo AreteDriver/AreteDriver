@@ -98,6 +98,7 @@ I ship MCP servers that give AI assistants operational superpowers:
 |--------|--------|-------|-------------|
 | [**azure-ops-mcp**](https://github.com/AreteDriver/azure-ops-mcp) | Azure infrastructure | 13 (9 free + 4 Pro) | Self-improving detection rules + ChromaDB persistent memory |
 | [**stellar-audit-agent**](https://github.com/AreteDriver/stellar-audit-agent) | Code audit + payments | 3 audit endpoints | Autonomous agent loop with x402 micropayments |
+| [**arete-context-mcp**](https://github.com/AreteDriver/arete-context-mcp) | Personal context | 5 context endpoints | Sanitized job-search templates + secure context handling |
 | *Animus Forge* (in [animus](https://github.com/AreteDriver/animus)) | Eval + quality gates | — | Adversarial test execution via MCP |
 
 ### Developer Tools & Frameworks
