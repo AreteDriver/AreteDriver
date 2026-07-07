@@ -10,7 +10,7 @@
 
 I ship LLM-powered products end to end — eval harnesses, multi-agent systems, billing, deploy — and I have the operations background to make them reliable. Before software I spent 17 years running manufacturing and logistics systems (IBM, Toyota Production System): standard work, visual management, error-proofing. A system that ships predictably beats one that demos brilliantly.
 
-**[Portfolio](https://aretedriver.dev)** · **[LinkedIn](https://www.linkedin.com/in/james-y-3b77b3120)** · **[Substack](https://substack.com/@aretedriver)** · **[jamesyng79@gmail.com](mailto:jamesyng79@gmail.com)**
+**[Portfolio](https://aretedriver.dev)** · **[LinkedIn](https://www.linkedin.com/in/james-y-3b77b3120)** · **[jamesyng79@gmail.com](mailto:jamesyng79@gmail.com)**
 
 `Python` · `TypeScript` · `Rust` · `React / Next.js` · `FastAPI` · `PostgreSQL / SQLite` · `LLM evaluation & routing` · `multi-agent orchestration` · `MCP servers` · `Stripe` · `CI/CD (GitHub Actions)` · `Vercel / Fly.io` · `Azure`
 
@@ -22,8 +22,8 @@ I ship LLM-powered products end to end — eval harnesses, multi-agent systems, 
 
 What I'm building right now (Derek Sivers style):
 
-- **[Animus](https://github.com/AreteDriver/animus) v2.3** — Sovereign AI operating environment: 55K LOC, 172 files, bitemporal core, quality gates, checkpoint/resume, generational roadmap (G1–G4). Evidence Framework tracks maturity from Concept → Self-improving. Linux-first open-source launch in progress.
-- **Crucible** — Phase-gated transformation framework: four/five conditions, Qliphothic failure taxonomy, active/receptive polarity. Research layer under the Animus Mind-class scaffold.
+- **[Animus](https://github.com/AreteDriver/animus) v2.3** — Multi-agent orchestration framework with budget controls, quality gates, and checkpoint/resume: 55K LOC, 172 files, bitemporal core, generational roadmap (G1–G4). Evidence Framework tracks maturity from Concept → Self-improving. Linux-first open-source launch in progress.
+- **Crucible** — Phase-gated transformation framework: four/five conditions, structured failure taxonomy, active/receptive polarity. Research layer under the Animus Mind-class scaffold.
 - **Local AI Stack** — RX 7900 XTX powering zero-cost inference (Ollama, 4-model tiered stack). Eval calibration runs weekly against `arete-evals` suites.
 - **TIAID consulting** — `$2,500 Rapid Assessment` + `$15K–$25K Full Engagement` products for trauma-informed AI deployment inside organizations.
 
@@ -72,7 +72,7 @@ If one helps you, please star it. If something breaks, open a `setup-blocker` is
 
 [**Animus**](https://github.com/AreteDriver/animus) — Sovereign AI operating environment: multi-agent orchestration with budget controls, quality gates, checkpoint/resume, autonomous self-improvement, and Evidence Framework maturity tracking. ~17K LOC across core packages. *Previously private; now public and actively developed.*
 
-[**Animus Mind**](https://github.com/AreteDriver/animus-mind) — v2.3 Mind-class architecture: bitemporal memory core, adversarial tests, deterministic quality scoring, Architect Citizen for autonomous improvement proposals. The cognition layer behind the Animus exocortex.
+[**Animus Mind**](https://github.com/AreteDriver/animus-mind) — v2.3 Mind-class architecture: bitemporal memory core, adversarial tests, deterministic quality scoring, Architect Citizen for autonomous improvement proposals. The reasoning layer behind Animus.
 
 [**memboot**](https://github.com/AreteDriver/memboot) — Zero-infrastructure persistent memory layer for any LLM — works with Claude Code, OpenAI Codex, Cursor, Windsurf, Claude Desktop, and Zed. Semantic-security audit caught two MEDIUM findings the SAST run missed.
 
@@ -162,7 +162,7 @@ Direct entry points for "what does the code actually look like":
 
 ## Consulting & Writing
 
-**TIAID — Trauma-Informed AI Deployment** — a methodology for rolling out AI inside organizations without breaking the people, mapped to the NIST AI Risk Management Framework. Long-form essays on the human side of AI adoption at [The Human Stack](https://substack.com/@aretedriver).
+**TIAID — Trauma-Informed AI Deployment** — a methodology for rolling out AI inside organizations without breaking the people, mapped to the NIST AI Risk Management Framework.
 
 ---
 
