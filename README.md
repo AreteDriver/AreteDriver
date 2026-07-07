@@ -22,20 +22,21 @@ I ship LLM-powered products end to end — eval harnesses, multi-agent systems, 
 
 What I'm building right now (Derek Sivers style):
 
-- **[Animus](https://github.com/AreteDriver/animus) v2.3** — Multi-agent orchestration framework with budget controls, quality gates, and checkpoint/resume: 55K LOC, 172 files, bitemporal core, generational roadmap (G1–G4). Evidence Framework tracks maturity from Concept → Self-improving. Linux-first open-source launch in progress.
+- **[The Human Stack](https://github.com/AreteDriver/the-human-stack)** — A living engineering reference for deploying, operating, and evaluating AI systems. Evidence-graded chapters, engineering reviews, benchmark methodology, and deployment case studies. The intellectual center of my public work.
+- **[Animus](https://github.com/AreteDriver/animus) v2.3** — Sovereign AI operating environment and primary reference implementation for The Human Stack: multi-agent orchestration with budget controls, quality gates, checkpoint/resume, and autonomous self-improvement. 55K+ LOC, Evidence Framework maturity tracking.
 - **Crucible** — Phase-gated transformation framework: four/five conditions, structured failure taxonomy, active/receptive polarity. Research layer under the Animus Mind-class scaffold.
 - **Local AI Stack** — RX 7900 XTX powering zero-cost inference (Ollama, 4-model tiered stack). Eval calibration runs weekly against `arete-evals` suites.
 - **TIAID consulting** — `$2,500 Rapid Assessment` + `$15K–$25K Full Engagement` products for trauma-informed AI deployment inside organizations.
 
 ---
 
-## Start Here (AI Tooling)
+## Start Here
 
-If you only look at three repos, use this path:
+If you only look at three things, use this path:
 
-1. **[ai-skills](https://github.com/AreteDriver/ai-skills)** — Production-ready skill system for Claude Code and multi-agent workflows
-2. **[ai-session-templates](https://github.com/AreteDriver/ai-session-templates)** — Structured session templates for Claude Code, Codex, and repo-aware coding agents
-3. **[memboot](https://github.com/AreteDriver/memboot)** — Zero-infrastructure persistent memory layer for any LLM
+1. **[The Human Stack](https://github.com/AreteDriver/the-human-stack)** — My living engineering manual: evidence-graded methodology for deploying AI as operational infrastructure. Start with the [Engineering Reviews](https://github.com/AreteDriver/the-human-stack/tree/main/manual/70-engineering-reviews) and [Case Studies](https://github.com/AreteDriver/the-human-stack/tree/main/manual/10-case-studies).
+2. **[Animus](https://github.com/AreteDriver/animus)** — The sovereign AI operating environment that implements the principles in The Human Stack: multi-agent orchestration, autonomous self-improvement, and integrated governance.
+3. **[ai-session-templates](https://github.com/AreteDriver/ai-session-templates)** — Structured session templates for Claude Code, Codex, and repo-aware coding agents.
 
 If one helps you, please star it. If something breaks, open a `setup-blocker` issue and I will prioritize it.
 
@@ -68,9 +69,13 @@ If one helps you, please star it. If something breaks, open a `setup-blocker` is
 
 ## Open Source
 
+### Engineering Methodology
+
+[**The Human Stack**](https://github.com/AreteDriver/the-human-stack) — A living engineering reference for deploying, operating, and evaluating AI systems. Evidence-graded chapters (E0–E5), engineering reviews with retrospectives, benchmark methodology, and deployment case studies. The intellectual center of my public work; everything else is evidence supporting it.
+
 ### AI Infrastructure & Orchestration
 
-[**Animus**](https://github.com/AreteDriver/animus) — Sovereign AI operating environment: multi-agent orchestration with budget controls, quality gates, checkpoint/resume, autonomous self-improvement, and Evidence Framework maturity tracking. ~17K LOC across core packages. *Previously private; now public and actively developed.*
+[**Animus**](https://github.com/AreteDriver/animus) — Sovereign AI operating environment and primary reference implementation for The Human Stack: multi-agent orchestration with budget controls, quality gates, checkpoint/resume, autonomous self-improvement, and Evidence Framework maturity tracking. ~17K LOC across core packages. *Previously private; now public and actively developed.*
 
 [**Animus Mind**](https://github.com/AreteDriver/animus-mind) — v2.3 Mind-class architecture: bitemporal memory core, adversarial tests, deterministic quality scoring, Architect Citizen for autonomous improvement proposals. The reasoning layer behind Animus.
 
@@ -153,6 +158,7 @@ Direct entry points for "what does the code actually look like":
 
 ### Architecture & Design Docs
 
+- **[The Human Stack — Evidence Framework & Benchmark Methodology](https://github.com/AreteDriver/the-human-stack/blob/main/manual/20-evaluation/benchmark-methodology.md)** — Reproducible evaluation across four dimensions (correctness, precision, efficiency, evidence quality), with rubric-based scoring, failure taxonomy, and continuous drift detection.
 - **[chainlog — On-chain vs Off-chain Audit Design](https://github.com/AreteDriver/chainlog)** — Only hashes go on-chain (Base L2); zero PII leakage. Model version registry for EU AI Act compliance, dead man's switch for contingency triggers.
 - **[RedOPS — MITRE ATT&CK Mapping & Risk Scoring](https://github.com/AreteDriver/RedOPS)** — Structured threat-path generation with constrained output validation. Likelihood × impact quantification with audit-scoped enforcement.
 - **[Animus Mind — Bitemporal Memory Model](https://github.com/AreteDriver/animus-mind)** — Valid-time / transaction-time axes adapted from temporal database research (Snodgrass & Jensen). Adversarial test patterns prevent regression of quality-gate contracts.
