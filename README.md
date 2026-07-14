@@ -20,7 +20,7 @@ I ship LLM-powered products end to end — eval harnesses, multi-agent systems, 
 
 ## Now
 
-What I'm building right now (Derek Sivers style):
+What I'm building right now:
 
 - **[The Human Stack](https://github.com/AreteDriver/the-human-stack)** — A living engineering reference for deploying, operating, and evaluating AI systems. Evidence-graded chapters, engineering reviews, benchmark methodology, and deployment case studies. The intellectual center of my public work.
 - **[Animus](https://github.com/AreteDriver/animus) v2.3** — Sovereign AI operating environment and primary reference implementation for The Human Stack: multi-agent orchestration with budget controls, quality gates, checkpoint/resume, and autonomous self-improvement. 55K+ LOC, Evidence Framework maturity tracking.
