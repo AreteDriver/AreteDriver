@@ -1,6 +1,6 @@
 # James C. Young
 
-**AI Enablement / Forward-Deployed Engineer** — Portland, OR
+**Applied AI Systems Engineer** — Portland, OR
 
 [![PyPI](https://img.shields.io/badge/PyPI-15+-brightgreen?logo=pypi&logoColor=white)](https://pypi.org/user/AreteDriver/)
 [![Tests](https://img.shields.io/badge/tests-15%2B%20suites%20%7C%2015%2C000%2B%20cases-blue?logo=pytest&logoColor=white)](https://github.com/AreteDriver/arete-evals)
