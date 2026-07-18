@@ -1,6 +1,6 @@
 # James C. Young
 
-**Applied AI Systems Engineer** — eval infrastructure, cost observability, MCP tooling — Portland, OR
+**Applied AI Systems Engineer** — eval infrastructure, cost observability, MCP tooling 
 
 [![Animus](https://img.shields.io/badge/Animus-55K%20LOC-blue?logo=github)](https://github.com/AreteDriver/animus)
 [![Tests](https://img.shields.io/badge/tests-3%2C000%2B%20core%20%7C%20all%20green-blue?logo=pytest&logoColor=white)](https://github.com/AreteDriver/animus)
