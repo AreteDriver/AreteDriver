@@ -21,17 +21,17 @@ A system that ships predictably beats one that demos brilliantly.
 
 | Subsystem | What It Does | Tests |
 |-----------|--------------|-------|
-| **Kernel** | Bitemporal memory core, checkpoint/resume, session persistence | 179 green |
-| **Head** | Quality gates, fallback routing, natural-language interface | 72 green |
-| **Citizens** | Architect (autonomous improvement proposals), Conversation Designer, Knowledge Curator | 35 green |
+| **Kernel** | Bitemporal memory core, checkpoint/resume, session persistence | 190 green |
+| **Head** | Quality gates, fallback routing, natural-language interface | 83 green |
+| **Citizens** | Architect (autonomous improvement proposals), Conversation Designer, Knowledge Curator | 71 green |
 | **Forge** | Eval pipeline, benchmark execution, rubric-based scoring | Integrated |
 | **Session Controller** | Token-budgeted session lifecycle, graceful wrap, auto-restart | 22 green |
 
 **Key design decisions (visible in the code):**
 
-- **[Evidence Framework](https://github.com/AreteDriver/animus/blob/main/docs/evidence-framework.md)** — Six-stage maturity model (Concept → Self-improving) with Coverage KPI. Makes "documented but unverified" into "inspectable evidence."
+- **[Evidence Framework](https://github.com/AreteDriver/animus/tree/main/docs/metrics)** — Six-stage maturity model (Concept → Self-improving) with Coverage KPI. Makes "documented but unverified" into "inspectable evidence."
 - **[ADL-governed architecture](https://github.com/AreteDriver/animus/tree/main/decisions)** — Every major decision is append-only, dated, and cross-referenced. No tribal knowledge.
-- **[Quality gates before merge](https://github.com/AreteDriver/animus-mind)** — Deterministic scoring (tool/completeness/structure) with adversarial test harness. Features don't ship without gate passage.
+- **[Quality gates before merge](https://github.com/AreteDriver/animus)** — Deterministic scoring (tool/completeness/structure) with adversarial test harness. Features don't ship without gate passage.
 
 ---
 
@@ -50,7 +50,7 @@ A system that ships predictably beats one that demos brilliantly.
 
 ## Production SaaS
 
-[**BenchGoblins**](https://benchgoblins.com) — Fantasy football analytics with scored LLM routing (Grok-primary), full ESPN + Yahoo parity, 14 commissioner tools, live Stripe billing. 3,921 tests, Fly.io + Vercel. Shows I can ship consumer SaaS, not just infrastructure.
+[**BenchGoblins**](https://benchgoblins.com) — Fantasy football analytics with scored LLM routing (Grok-primary), full ESPN + Yahoo parity, 14 commissioner tools, live Stripe billing. 4,074 tests, Fly.io + Vercel. Shows I can ship consumer SaaS, not just infrastructure.
 
 ---
 
@@ -71,7 +71,7 @@ A system that ships predictably beats one that demos brilliantly.
 
 Direct entry points for "what does the code actually look like":
 
-- **[Animus Kernel — bitemporal memory + adversarial tests](https://github.com/AreteDriver/animus-mind)** — v2.3 scaffold: valid-time / transaction-time axes, quality-gate contracts enforced before any feature ships. Architect Citizen produces ImprovementProposals from codebase observation.
+- **[Animus Kernel — bitemporal memory + adversarial tests](https://github.com/AreteDriver/animus/tree/main/packages/kernel)** — v2.3 scaffold: valid-time / transaction-time axes, quality-gate contracts enforced before any feature ships. Architect Citizen produces ImprovementProposals from codebase observation.
 - **[ai-spend — OpenRouter provider](https://github.com/AreteDriver/ai-spend)** — `GET /api/v1/generations` pagination with `native_cost` fallback to token-based estimates. Pattern: provider registry ABC with side-effect registration.
 - **[Animus Session Controller](https://github.com/AreteDriver/animus)** — Token-budgeted session lifecycle (96% utilization trigger), graceful finalization with model-generated summary, checkpoint + auto-restart. 22 tests, 83 existing head core tests green.
 - **[Animus P5 Discovery](https://github.com/AreteDriver/animus)** — MCP scanner, OpenAPI ingestion, annotated script discovery, 4-dimension schema validator, hash deduplication. 41 tests, 194 total P0–P5 tests green.
