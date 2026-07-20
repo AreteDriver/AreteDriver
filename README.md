@@ -25,14 +25,14 @@ The fastest way to understand the methodology is to use it. These repos are arra
 | **Skills** | [ai-skills](https://github.com/AreteDriver/ai-skills) | Production-ready skills for Claude Code, agent orchestration, and workflows | `./tools/install.sh --bundle arete-studio-ops` |
 | **Cost** | [ai-spend](https://github.com/AreteDriver/ai-spend) | `htop` for AI spend — cross-provider cost aggregation | `pip install ai-spend` |
 | **Governance** | [agent-lint](https://github.com/AreteDriver/agent-lint) | Workflow YAML cost estimator + anti-pattern linter | `pip install agentlinter` |
-| **Orchestration** | [animus](https://github.com/AreteDriver/animus) | Sovereign AI operating environment with evidence-graded maturity, session persistence, autonomous improvement | `git clone` + `docker compose up` |
+| **Orchestration** | [animus](https://github.com/AreteDriver/animus) | Personal AI operating environment with local-first control, evidence-graded maturity, session persistence, autonomous improvement | `git clone` + `docker compose up` |
 | **Methodology** | [the-human-stack](https://github.com/AreteDriver/the-human-stack) | The engineering reference itself — evidence-graded chapters, benchmark methodology, failure taxonomy | Read [VISION.md](https://github.com/AreteDriver/the-human-stack/blob/main/VISION.md) |
 
 ---
 
 ## The Proof: Animus
 
-[Animus](https://github.com/AreteDriver/animus) is the primary reference implementation — a sovereign AI operating environment with evidence-graded maturity tracking.
+[Animus](https://github.com/AreteDriver/animus) is the primary reference implementation — a personal AI operating environment with local-first control and evidence-graded maturity tracking.
 
 | Subsystem | What It Does | Tests |
 |-----------|--------------|-------|
