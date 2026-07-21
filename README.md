@@ -76,8 +76,6 @@ The fastest way to understand the methodology is to use it. These repos are arra
 | [agent-lint](https://github.com/AreteDriver/agent-lint) | Workflow YAML cost estimator + anti-pattern linter | `pip install agentlinter` |
 | [context-hygiene](https://github.com/AreteDriver/context-hygiene) | Heuristic context-window analyzer — position-decay scoring + regex patterns | `pip install context-hygiene` |
 
-> **Not shown:** [context-hygiene](https://github.com/AreteDriver/context-hygiene) — heuristic context-window analyzer (position-decay + regex patterns). Honest about what it is.
-
 ---
 
 ## Production SaaS
