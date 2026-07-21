@@ -16,6 +16,23 @@ Before software I spent 17 years running manufacturing and logistics systems (IB
 
 ---
 
+## Notable Projects
+
+These are the repos I maintain to production quality — evidence, tests, and documentation first.
+
+| Project | Stars | Language | What It Is |
+|---------|-------|----------|------------|
+| [animus](https://github.com/AreteDriver/animus) | ⭐1 | Python | Personal AI operating environment — bitemporal memory, evidence-graded maturity, autonomous improvement |
+| [mcp-manager](https://github.com/AreteDriver/mcp-manager) | ⭐1 | Python | MCP server lifecycle manager across Claude Code, Cursor, Windsurf — now with permission-prompt audit |
+| [ai-spend](https://github.com/AreteDriver/ai-spend) | ⭐0 | Python | Cross-provider AI cost aggregation with provider retry, config encryption, and health checks |
+| [agent-lint](https://github.com/AreteDriver/agent-lint) | ⭐2 | Python | Workflow YAML cost estimator + anti-pattern detection for agent orchestration |
+| [the-human-stack](https://github.com/AreteDriver/the-human-stack) | ⭐0 | Markdown | Living engineering reference — evidence-graded chapters, benchmark methodology, failure taxonomy |
+| [ai-skills](https://github.com/AreteDriver/ai-skills) | ⭐3 | Python | Production-ready skills for Claude Code personas and orchestrated workflows |
+
+*Hobby projects (EVE Online lore, personal context servers) are kept private. What you see here is what I ship.*
+
+---
+
 ## Start Here: The Arete Stack
 
 The fastest way to understand the methodology is to use it. These repos are arranged as an onion — start at the outer layer and peel inward.
@@ -46,7 +63,7 @@ The fastest way to understand the methodology is to use it. These repos are arra
 
 - **[Evidence Framework](https://github.com/AreteDriver/animus/blob/main/docs/evidence-framework.md)** — Six-stage maturity model (Concept → Self-improving) with Coverage KPI. Makes "documented but unverified" into "inspectable evidence."
 - **[ADL-governed architecture](https://github.com/AreteDriver/animus/tree/main/decisions)** — Every major decision is append-only, dated, and cross-referenced. No tribal knowledge.
-- **[Quality gates before merge](https://github.com/AreteDriver/animus-mind)** — Deterministic scoring (tool/completeness/structure) with adversarial test harness. Features don't ship without gate passage.
+- **[Quality gates before merge](https://github.com/AreteDriver/animus)** — Deterministic scoring (tool/completeness/structure) with adversarial test harness. Features don't ship without gate passage.
 
 ---
 
@@ -57,7 +74,7 @@ The fastest way to understand the methodology is to use it. These repos are arra
 | [ai-spend](https://github.com/AreteDriver/ai-spend) | **`htop` for AI spend** — cross-provider cost aggregation with OpenRouter, Anthropic, OpenAI | `pip install ai-spend` |
 | [mcp-manager](https://github.com/AreteDriver/mcp-manager) | MCP server manager across agentic IDEs (Claude Code, Cursor, Windsurf) | `pip install arete-mcp` |
 | [agent-lint](https://github.com/AreteDriver/agent-lint) | Workflow YAML cost estimator + anti-pattern linter | `pip install agentlinter` |
-| [promptctl](https://github.com/AreteDriver/promptctl) | Claude API toolkit — prompt versioning, code review, doc intelligence | `pip install promptctlai` |
+| [context-hygiene](https://github.com/AreteDriver/context-hygiene) | Heuristic context-window analyzer — position-decay scoring + regex patterns | `pip install context-hygiene` |
 
 > **Not shown:** [context-hygiene](https://github.com/AreteDriver/context-hygiene) — heuristic context-window analyzer (position-decay + regex patterns). Honest about what it is.
 
@@ -65,7 +82,7 @@ The fastest way to understand the methodology is to use it. These repos are arra
 
 ## Production SaaS
 
-[**BenchGoblins**](https://benchgoblins.com) — Fantasy football analytics with scored LLM routing (Grok-primary), full ESPN + Yahoo parity, 14 commissioner tools, live Stripe billing. 3,921 tests, Fly.io + Vercel. Shows the methodology works for consumer SaaS, not just infrastructure.
+[**BenchGoblins**](https://benchgoblins.com) — Fantasy football analytics with scored LLM routing (Grok-primary), full ESPN + Yahoo parity, 14 commissioner tools. 3,921 tests, Fly.io + Vercel. Shows the methodology works for consumer SaaS, not just infrastructure.
 
 ---
 
@@ -82,7 +99,7 @@ The fastest way to understand the methodology is to use it. These repos are arra
 
 Direct entry points for "what does the code actually look like":
 
-- **[Animus Kernel — bitemporal memory + adversarial tests](https://github.com/AreteDriver/animus-mind)** — v2.3 scaffold: valid-time / transaction-time axes, quality-gate contracts enforced before any feature ships. Architect Citizen produces ImprovementProposals from codebase observation.
+- **[Animus Kernel — bitemporal memory + adversarial tests](https://github.com/AreteDriver/animus)** — v2.3 scaffold: valid-time / transaction-time axes, quality-gate contracts enforced before any feature ships. Architect Citizen produces ImprovementProposals from codebase observation.
 - **[ai-spend — OpenRouter provider](https://github.com/AreteDriver/ai-spend)** — `GET /api/v1/generations` pagination with `native_cost` fallback to token-based estimates. Pattern: provider registry ABC with side-effect registration.
 - **[Animus Session Controller](https://github.com/AreteDriver/animus)** — Token-budgeted session lifecycle (96% utilization trigger), graceful finalization with model-generated summary, checkpoint + auto-restart. 22 tests, 83 existing head core tests green.
 - **[Animus P5 Discovery](https://github.com/AreteDriver/animus)** — MCP scanner, OpenAPI ingestion, annotated script discovery, 4-dimension schema validator, hash deduplication. 41 tests, 194 total P0–P5 tests green.
