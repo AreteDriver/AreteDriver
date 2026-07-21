@@ -12,7 +12,7 @@ I write **The Human Stack** — a living engineering reference for deploying, op
 
 Before software I spent 17 years running manufacturing and logistics systems (IBM, Toyota Production System) — standard work, visual management, error-proofing. That discipline shows up in every codebase: ADL-governed decisions, adversarial test gates, evidence-graded maturity.
 
-**[Portfolio](https://aretedriver.dev)** · **[LinkedIn](https://www.linkedin.com/in/james-y-3b77b3120)** · **[jamesyng79@gmail.com](mailto:jamesyng79@gmail.com)**
+**[Portfolio](https://aretedriver.dev)** · **[Substack](https://aretedriver.substack.com)** · **[LinkedIn](https://www.linkedin.com/in/james-y-3b77b3120)** · **[jamesyng79@gmail.com](mailto:jamesyng79@gmail.com)**
 
 ---
 
