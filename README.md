@@ -5,14 +5,16 @@
 > *A system that ships predictably beats one that demos brilliantly.*
 
 [![The Human Stack](https://img.shields.io/badge/The%20Human%20Stack-v0.9-blue)](https://github.com/AreteDriver/the-human-stack)
-[![Animus](https://img.shields.io/badge/Animus-55K%20LOC-blue?logo=github)](https://github.com/AreteDriver/animus)
+[![Animus](https://img.shields.io/badge/Animus-51K%20LOC-blue?logo=github)](https://github.com/AreteDriver/animus)
 [![Tests](https://img.shields.io/badge/tests-3%2C000%2B%20core%20%7C%20all%20green-blue?logo=pytest&logoColor=white)](https://github.com/AreteDriver/animus)
 
 I write **The Human Stack** — a living engineering reference for deploying, operating, and evaluating AI systems in production. Everything in this profile is evidence supporting that methodology: eval frameworks that catch regressions before they ship, cost observability that surfaces spend anomalies in real time, and MCP tooling that standardizes how AI agents connect to the world.
 
 Before software I spent 17 years running manufacturing and logistics systems (IBM, Toyota Production System) — standard work, visual management, error-proofing. That discipline shows up in every codebase: ADL-governed decisions, adversarial test gates, evidence-graded maturity.
 
-**[Portfolio](https://aretedriver.dev)** · **[Substack](https://aretedriver.substack.com)** · **[LinkedIn](https://www.linkedin.com/in/james-y-3b77b3120)** · **[jamesyng79@gmail.com](mailto:jamesyng79@gmail.com)**
+Building toward a world where every engineering team ships AI systems with the same operational discipline they apply to production infrastructure.
+
+**[Substack](https://aretedriver.substack.com)** · **[LinkedIn](https://www.linkedin.com/in/james-y-3b77b3120)** · **[jamesyng79@gmail.com](mailto:jamesyng79@gmail.com)**
 
 ---
 
@@ -75,12 +77,6 @@ The fastest way to understand the methodology is to use it. These repos are arra
 | [mcp-manager](https://github.com/AreteDriver/mcp-manager) | MCP server manager across agentic IDEs (Claude Code, Cursor, Windsurf) | `pip install arete-mcp` |
 | [agent-lint](https://github.com/AreteDriver/agent-lint) | Workflow YAML cost estimator + anti-pattern linter | `pip install agentlinter` |
 | [context-hygiene](https://github.com/AreteDriver/context-hygiene) | Heuristic context-window analyzer — position-decay scoring + regex patterns | `pip install context-hygiene` |
-
----
-
-## Production SaaS
-
-[**BenchGoblins**](https://benchgoblins.com) — Fantasy football analytics with scored LLM routing (Grok-primary), full ESPN + Yahoo parity, 14 commissioner tools. 3,921 tests, Fly.io + Vercel. Shows the methodology works for consumer SaaS, not just infrastructure.
 
 ---
 
