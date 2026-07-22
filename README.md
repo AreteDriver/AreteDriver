@@ -22,6 +22,14 @@ Most AI projects ship as demos and die in production. The failure modes are bori
 
 ---
 
+## Selected Writing
+
+- **[The Eval Is the Product](https://aretedriver.substack.com)** — Why evaluation infrastructure matters more than model choice.
+- **[Local-First AI Stack](https://aretedriver.substack.com)** — Zero-cost inference with Ollama on consumer hardware.
+- **[Decision Logging as Operational Memory](https://github.com/AreteDriver/the-human-stack/blob/main/manual/50-principles/decision-logging.md)** — The ADL methodology: append-only, evidence-graded, revisit-conditioned.
+
+---
+
 ## Notable Projects
 
 These are the repos I maintain to production quality — evidence, tests, and documentation first.
@@ -47,6 +55,7 @@ The fastest way to understand the methodology is to use it. These repos are arra
 | Layer | Repo | What It Is | Entry Point |
 |-------|------|------------|-------------|
 | **Skills** | [ai-skills](https://github.com/AreteDriver/ai-skills) | Production-ready skills for Claude Code, agent orchestration, and workflows | `./tools/install.sh --bundle arete-studio-ops` |
+| **Eval** | [arete-evals](https://github.com/AreteDriver/arete-evals) | LLM eval suites and run records — eval engineering vs eval practice | `pip install -e .` |
 | **Cost** | [ai-spend](https://github.com/AreteDriver/ai-spend) | `htop` for AI spend — cross-provider cost aggregation | `pip install ai-spend` |
 | **Governance** | [agent-lint](https://github.com/AreteDriver/agent-lint) | Workflow YAML cost estimator + anti-pattern linter | `pip install agentlinter` |
 | **Orchestration** | [animus](https://github.com/AreteDriver/animus) | Personal AI operating environment with local-first control, evidence-graded maturity, session persistence, autonomous improvement | `git clone` + `docker compose up` |
@@ -82,6 +91,10 @@ The fastest way to understand the methodology is to use it. These repos are arra
 | [mcp-manager](https://github.com/AreteDriver/mcp-manager) | MCP server manager across agentic IDEs (Claude Code, Cursor, Windsurf) | `pip install arete-mcp` |
 | [agent-lint](https://github.com/AreteDriver/agent-lint) | Workflow YAML cost estimator + anti-pattern linter | `pip install agentlinter` |
 | [context-hygiene](https://github.com/AreteDriver/context-hygiene) | Heuristic context-window analyzer — position-decay scoring + regex patterns | `pip install context-hygiene` |
+| [arete-evals](https://github.com/AreteDriver/arete-evals) | LLM eval suites with benchmark scoring, A/B comparison with bootstrap CIs | `pip install -e .` |
+| [ci-templates](https://github.com/AreteDriver/ci-templates) | Reusable GitHub Actions workflows, lint configs, release automation | Copy + adapt |
+| [RedOPS](https://github.com/AreteDriver/RedOPS) | Red-team playbook for AI infrastructure — incident response, supply-chain audit | Read + run |
+| [overwatch](https://github.com/AreteDriver/overwatch) | Multi-service health monitoring with structured logging and alerting | `pip install -e .` |
 
 ---
 
