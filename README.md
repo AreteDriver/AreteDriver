@@ -8,11 +8,15 @@
 [![Animus](https://img.shields.io/badge/Animus-51K%20LOC-blue?logo=github)](https://github.com/AreteDriver/animus)
 [![Tests](https://img.shields.io/badge/tests-%7E17%2C000%2B%20%7C%20all%20green-blue?logo=pytest&logoColor=white)](https://github.com/AreteDriver/animus)
 
-I write **The Human Stack** — a living engineering reference for deploying, operating, and evaluating AI systems in production. Everything in this profile is evidence supporting that methodology: eval frameworks that catch regressions before they ship, cost observability that surfaces spend anomalies in real time, and MCP tooling that standardizes how AI agents connect to the world.
+## The Predictability Gap
 
-Before software I spent 17 years running manufacturing and logistics systems (IBM, Toyota Production System) — standard work, visual management, error-proofing. That discipline shows up in every codebase: ADL-governed decisions, adversarial test gates, evidence-graded maturity.
+Most AI projects ship as demos and die in production. The failure modes are boringly consistent: **costs spiral** because no one tracks token spend, **pipelines break halfway through** and restart from scratch wasting compute, and **multi-agent systems bottleneck** on a single supervisor that burns tokens just watching. These aren't capability problems — they're operational problems.
 
-Building toward a world where every engineering team ships AI systems with the same operational discipline they apply to production infrastructure.
+**The Human Stack** is my response: a living engineering methodology that treats AI systems as operational systems. Every claim is evidence-graded (E0–E5). Every architectural choice is append-only, dated, and cross-referenced in an ADL. Every tool carries adversarial tests before it ships. The methodology is public in [the-human-stack](https://github.com/AreteDriver/the-human-stack).
+
+**The Arete Stack** is its implementation — the tools I actually build and maintain. Each repo maps to a layer of the methodology: skills for session discipline, cost observability for spend anomalies, governance linting for workflow anti-patterns, orchestration for autonomous improvement, and the methodology reference itself. This profile is arranged as an onion — start at the outer layer and peel inward.
+
+*Before software I spent 17 years in manufacturing and logistics (IBM, Toyota Production System). That discipline shows up in every codebase: standard work, visual management, error-proofing, continuous improvement.*
 
 **[Substack](https://aretedriver.substack.com)** · **[LinkedIn](https://www.linkedin.com/in/james-y-3b77b3120)** · **[jamesyng79@gmail.com](mailto:jamesyng79@gmail.com)**
 
