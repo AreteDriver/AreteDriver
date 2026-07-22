@@ -6,7 +6,7 @@
 
 [![The Human Stack](https://img.shields.io/badge/The%20Human%20Stack-v0.9-blue)](https://github.com/AreteDriver/the-human-stack)
 [![Animus](https://img.shields.io/badge/Animus-51K%20LOC-blue?logo=github)](https://github.com/AreteDriver/animus)
-[![Tests](https://img.shields.io/badge/tests-3%2C000%2B%20core%20%7C%20all%20green-blue?logo=pytest&logoColor=white)](https://github.com/AreteDriver/animus)
+[![Tests](https://img.shields.io/badge/tests-%7E17%2C000%2B%20%7C%20all%20green-blue?logo=pytest&logoColor=white)](https://github.com/AreteDriver/animus)
 
 I write **The Human Stack** — a living engineering reference for deploying, operating, and evaluating AI systems in production. Everything in this profile is evidence supporting that methodology: eval frameworks that catch regressions before they ship, cost observability that surfaces spend anomalies in real time, and MCP tooling that standardizes how AI agents connect to the world.
 
@@ -30,6 +30,7 @@ These are the repos I maintain to production quality — evidence, tests, and do
 | [agent-lint](https://github.com/AreteDriver/agent-lint) | ⭐2 | Python | Workflow YAML cost estimator + anti-pattern detection for agent orchestration |
 | [the-human-stack](https://github.com/AreteDriver/the-human-stack) | ⭐0 | Markdown | Living engineering reference — evidence-graded chapters, benchmark methodology, failure taxonomy |
 | [ai-skills](https://github.com/AreteDriver/ai-skills) | ⭐3 | Python | Production-ready skills for Claude Code personas and orchestrated workflows |
+| [arete-evals](https://github.com/AreteDriver/arete-evals) | ⭐1 | Python | LLM eval suites and run records — eval engineering vs eval practice |
 
 *Hobby projects (EVE Online lore, personal context servers) are kept private. What you see here is what I ship.*
 
