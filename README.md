@@ -107,6 +107,21 @@ The fastest way to understand the methodology is to use it. These repos are arra
 
 ---
 
+## How This Code Is Written
+
+I develop primarily with **Claude Code** (Anthropic's CLI for Claude). Think of it as pair programming with a fast, literal pair — not autonomous AI.
+
+**What that means:**
+- Every commit is human-reviewed. The `claude` contributor in git history is the application, not a person.
+- Every test is human-verified. Coverage numbers reflect assertions I wrote and ran.
+- Every architectural decision is logged in the ADL with rationale, rejected options, and tradeoffs.
+- AI accelerates implementation; humans own validation, integration, and shipping.
+
+**Why this matters:**
+AI-assisted development is becoming standard. What differentiates engineering discipline from cargo-culting is the verification layer: adversarial tests, evidence-graded maturity, and append-only decision logs. The code works because I test it. The methodology holds because I revisit it.
+
+---
+
 ## Selected Work
 
 Direct entry points for "what does the code actually look like":
