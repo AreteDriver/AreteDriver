@@ -24,6 +24,7 @@ Most AI projects ship as demos and die in production. The failure modes are bori
 
 ## Selected Writing
 
+- **[I Oversaw Scaling a Portland Ice Cream Line to 4,800 Pints Per Hour. AI Engineers Keep Making the Same Mistakes.](https://aretedriver.substack.com)** — Manufacturing discipline applied to production AI: waste visibility, checkpoint/resume, and error-proofing before error-catching.
 - **[The Eval Is the Product](https://aretedriver.substack.com)** — Why evaluation infrastructure matters more than model choice.
 - **[Local-First AI Stack](https://aretedriver.substack.com)** — Zero-cost inference with Ollama on consumer hardware.
 - **[Decision Logging as Operational Memory](https://github.com/AreteDriver/the-human-stack/blob/main/manual/50-principles/decision-logging.md)** — The ADL methodology: append-only, evidence-graded, revisit-conditioned.
