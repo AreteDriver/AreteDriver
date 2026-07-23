@@ -34,6 +34,53 @@
 
 ---
 
+## The Ecosystem
+
+How the pieces fit. Solid lines = active integration. Dashed lines = methodology guidance or historical extraction.
+
+```mermaid
+flowchart TB
+    subgraph Flagship["FLAGSHIP"]
+        Animus[Animus<br/>AI Operating Environment]
+    end
+
+    subgraph Ring1["CORE TOOLS — orbit Animus"]
+        direction LR
+        AISPEND[ai-spend<br/>Cost Observability]
+        MCPMGR[mcp-manager<br/>MCP Lifecycle]
+        EVALS[arete-evals<br/>Eval Pipeline]
+        LINT[agent-lint<br/>Workflow Governance]
+        HYGIENE[context-hygiene<br/>Context Quality]
+        SKILLS[ai-skills<br/>Agent Capabilities]
+    end
+
+    subgraph Ring2["METHODOLOGY — governs all"]
+        direction LR
+        THS[the-human-stack<br/>Evidence-graded reference]
+        NOTES[notes<br/>Cross-session memory]
+        CI[ci-templates<br/>Reusable CI]
+    end
+
+    subgraph Ring3["HISTORICAL — extracted into Animus"]
+        direction LR
+        MEMBOOT[memboot<br/>→ AST chunking]
+        ANCHOR[anchormd<br/>→ Pattern extraction]
+    end
+
+    AISPEND -->|"spend data"| Animus
+    MCPMGR -->|"server registry"| Animus
+    EVALS -->|"benchmark results"| Animus
+    LINT -->|"workflow checks"| Animus
+    Animus -->|"orchestrates"| SKILLS
+    THS -.->|"guides"| Animus
+    THS -.->|"guides"| AISPEND
+    THS -.->|"guides"| LINT
+    MEMBOOT -.->|"upstreamed"| Animus
+    ANCHOR -.->|"patterns archived"| NOTES
+```
+
+---
+
 ## The Predictability Gap
 
 Most AI projects ship as demos and die in production. The failure modes are boringly consistent: **costs spiral** because no one tracks token spend, **pipelines break halfway through** and restart from scratch wasting compute, and **multi-agent systems bottleneck** on a single supervisor that burns tokens just watching. These aren't capability problems — they're operational problems.
