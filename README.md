@@ -8,6 +8,26 @@
 [![Animus](https://img.shields.io/badge/Animus-51K%20LOC-blue?logo=github)](https://github.com/AreteDriver/animus)
 [![Tests](https://img.shields.io/badge/tests-%7E17%2C000%2B%20%7C%20all%20green-blue?logo=pytest&logoColor=white)](https://github.com/AreteDriver/animus)
 
+---
+
+## What I Build
+
+**Flagship:** [**Animus**](https://github.com/AreteDriver/animus) — AI operating environment. Local-first, multi-agent, evidence-graded maturity. 17,000+ tests, six-layer architecture, autonomous improvement via Citizens (Architect, Conversation Designer, Knowledge Curator, Session Steward, Test Oracle).
+
+**Shipped tools:**
+- [**ai-spend**](https://github.com/AreteDriver/ai-spend) — `htop` for AI spend. Cross-provider cost aggregation (Anthropic, OpenAI, OpenRouter). `pip install ai-spend`
+- [**mcp-manager**](https://github.com/AreteDriver/mcp-manager) — MCP server lifecycle manager across Claude Code, Cursor, Windsurf. `pip install arete-mcp`
+- [**ai-skills**](https://github.com/AreteDriver/ai-skills) — Production-ready skills for agent orchestration and Claude Code personas
+
+**Methodology:** [**the-human-stack**](https://github.com/AreteDriver/the-human-stack) — Evidence-graded engineering reference (E0–E5), benchmark methodology, failure taxonomy
+
+**Infrastructure:**
+- [**arete-evals**](https://github.com/AreteDriver/arete-evals) — LLM eval suites with bootstrap A/B comparison and rubric-based scoring
+- [**agent-lint**](https://github.com/AreteDriver/agent-lint) — Workflow YAML cost estimator + anti-pattern linter for agent orchestration
+- [**context-hygiene**](https://github.com/AreteDriver/context-hygiene) — Heuristic context-window analyzer with position-decay scoring
+
+---
+
 ## The Predictability Gap
 
 Most AI projects ship as demos and die in production. The failure modes are boringly consistent: **costs spiral** because no one tracks token spend, **pipelines break halfway through** and restart from scratch wasting compute, and **multi-agent systems bottleneck** on a single supervisor that burns tokens just watching. These aren't capability problems — they're operational problems.
