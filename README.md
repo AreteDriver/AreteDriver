@@ -28,6 +28,12 @@
 
 ---
 
+## The Tools in Action
+
+![Arete Stack Demo Reel](docs/assets/arete-stack-demo-reel.gif)
+
+---
+
 ## The Predictability Gap
 
 Most AI projects ship as demos and die in production. The failure modes are boringly consistent: **costs spiral** because no one tracks token spend, **pipelines break halfway through** and restart from scratch wasting compute, and **multi-agent systems bottleneck** on a single supervisor that burns tokens just watching. These aren't capability problems — they're operational problems.
