@@ -6,14 +6,14 @@
 
 [![The Human Stack](https://img.shields.io/badge/The%20Human%20Stack-v0.9-blue)](https://github.com/AreteDriver/the-human-stack)
 [![Animus](https://img.shields.io/badge/Animus-51K%20LOC-blue?logo=github)](https://github.com/AreteDriver/animus)
-[![Tests](https://img.shields.io/badge/tests-%7E17%2C000%2B%20%7C%20all%20green-blue?logo=pytest&logoColor=white)](https://github.com/AreteDriver/animus)
+[![Animus CI](https://github.com/AreteDriver/animus/workflows/CI/badge.svg)](https://github.com/AreteDriver/animus/actions/workflows/ci.yml)
 [![Substack](https://img.shields.io/badge/Substack-aretedriver-orange?logo=substack)](https://aretedriver.substack.com)
 
 ---
 
 ## What I Build
 
-**Flagship:** [**Animus**](https://github.com/AreteDriver/animus) — AI operating environment. Local-first, multi-agent, evidence-graded maturity. 17,000+ tests, six-layer architecture, autonomous improvement via Citizens (Architect, Conversation Designer, Knowledge Curator, Session Steward, Test Oracle).
+**Flagship:** [**Animus**](https://github.com/AreteDriver/animus) — AI operating environment. Local-first, multi-agent, evidence-graded maturity. 13,500+ public package tests plus internal coverage ratchets, six-layer architecture, autonomous improvement via Citizens (Architect, Conversation Designer, Knowledge Curator, Session Steward, Test Oracle).
 
 **Shipped tools:**
 - [**ai-spend**](https://github.com/AreteDriver/ai-spend) — `htop` for AI spend. Cross-provider cost aggregation (Anthropic, OpenAI, OpenRouter). `pip install ai-spend`
@@ -109,17 +109,17 @@ Most AI projects ship as demos and die in production. The failure modes are bori
 
 ## Notable Projects
 
-These are the repos I maintain to production quality — evidence, tests, and documentation first.
+These are the repos I keep closest to release quality — evidence, tests, and documentation first.
 
-| Project | Stars | Language | What It Is |
-|---------|-------|----------|------------|
-| [animus](https://github.com/AreteDriver/animus) | ⭐1 | Python | Personal AI operating environment — bitemporal memory, evidence-graded maturity, autonomous improvement |
-| [mcp-manager](https://github.com/AreteDriver/mcp-manager) | ⭐1 | Python | MCP server lifecycle manager across Claude Code, Cursor, Windsurf — now with permission-prompt audit |
-| [ai-spend](https://github.com/AreteDriver/ai-spend) | ⭐0 | Python | Cross-provider AI cost aggregation with provider retry, config encryption, and health checks |
-| [agent-lint](https://github.com/AreteDriver/agent-lint) | ⭐2 | Python | Workflow YAML cost estimator + anti-pattern detection for agent orchestration |
-| [the-human-stack](https://github.com/AreteDriver/the-human-stack) | ⭐0 | Markdown | Living engineering reference — evidence-graded chapters, benchmark methodology, failure taxonomy |
-| [ai-skills](https://github.com/AreteDriver/ai-skills) | ⭐3 | Python | Production-ready skills for Claude Code personas and orchestrated workflows |
-| [arete-evals](https://github.com/AreteDriver/arete-evals) | ⭐1 | Python | LLM eval suites and run records — eval engineering vs eval practice |
+| Project | Signal | Language | What It Is |
+|---------|--------|----------|------------|
+| [animus](https://github.com/AreteDriver/animus) | Flagship | Python | Personal AI operating environment — bitemporal memory, evidence-graded maturity, autonomous improvement |
+| [mcp-manager](https://github.com/AreteDriver/mcp-manager) | PyPI | Python | MCP server lifecycle manager across Claude Code, Cursor, Windsurf — now with permission-prompt audit |
+| [ai-spend](https://github.com/AreteDriver/ai-spend) | PyPI | Python | Cross-provider AI cost aggregation with provider retry, config encryption, and health checks |
+| [agent-lint](https://github.com/AreteDriver/agent-lint) | PyPI | Python | Workflow YAML cost estimator + anti-pattern detection for agent orchestration |
+| [the-human-stack](https://github.com/AreteDriver/the-human-stack) | Methodology | Markdown | Living engineering reference — evidence-graded chapters, benchmark methodology, failure taxonomy |
+| [ai-skills](https://github.com/AreteDriver/ai-skills) | Reusable assets | Python | Production-ready skills for Claude Code personas and orchestrated workflows |
+| [arete-evals](https://github.com/AreteDriver/arete-evals) | Eval records | Python | LLM eval suites and run records — eval engineering vs eval practice |
 
 *Hobby projects (EVE Online lore, personal context servers) are kept private. What you see here is what I ship.*
 
@@ -171,7 +171,7 @@ The fastest way to understand the methodology is to use it. These repos are arra
 | [arete-evals](https://github.com/AreteDriver/arete-evals) | LLM eval suites with benchmark scoring, A/B comparison with bootstrap CIs | `pip install -e .` |
 | [ci-templates](https://github.com/AreteDriver/ci-templates) | Reusable GitHub Actions workflows, lint configs, release automation | Copy + adapt |
 | [RedOPS](https://github.com/AreteDriver/RedOPS) | Red-team playbook for AI infrastructure — incident response, supply-chain audit | Read + run |
-| [overwatch](https://github.com/AreteDriver/overwatch) | Multi-service health monitoring with structured logging and alerting | `pip install -e .` |
+| [overwatch](https://github.com/AreteDriver/overwatch) | Experimental situational-awareness dashboard for authorized data feeds and local demos | `pip install -e .` |
 
 ---
 
@@ -205,8 +205,8 @@ Direct entry points for "what does the code actually look like":
 
 - **[Animus Kernel — bitemporal memory + adversarial tests](https://github.com/AreteDriver/animus)** — v2.3 scaffold: valid-time / transaction-time axes, quality-gate contracts enforced before any feature ships. Architect Citizen produces ImprovementProposals from codebase observation.
 - **[ai-spend — OpenRouter provider](https://github.com/AreteDriver/ai-spend)** — `GET /api/v1/generations` pagination with `native_cost` fallback to token-based estimates. Pattern: provider registry ABC with side-effect registration.
-- **[Animus Session Controller](https://github.com/AreteDriver/animus)** — Token-budgeted session lifecycle (96% utilization trigger), graceful finalization with model-generated summary, checkpoint + auto-restart. 22 tests, 96 existing head core tests green.
-- **[Animus P5 Discovery](https://github.com/AreteDriver/animus)** — MCP scanner, OpenAPI ingestion, annotated script discovery, 4-dimension schema validator, hash deduplication. 41 tests, 194 total P0–P5 tests green.
+- **[Animus Session Controller](https://github.com/AreteDriver/animus)** — Token-budgeted session lifecycle (96% utilization trigger), graceful finalization with model-generated summary, checkpoint + auto-restart. 22 focused tests, with head-core regression coverage.
+- **[Animus P5 Discovery](https://github.com/AreteDriver/animus)** — MCP scanner, OpenAPI ingestion, annotated script discovery, 4-dimension schema validator, hash deduplication. 41 focused tests, with P0-P5 regression coverage.
 
 ---
 
