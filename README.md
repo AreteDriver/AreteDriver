@@ -1,217 +1,78 @@
-# The Human Stack
+# James C. Young
 
-**Engineering methodology for deploying AI systems with operational discipline.**
+**AI infrastructure engineer focused on operationally reliable agent systems.**
 
-> *A system that ships predictably beats one that demos brilliantly.*
+I build local-first AI tooling for cost visibility, evaluation discipline, workflow governance, MCP operations, and multi-agent orchestration. My background is 17 years in manufacturing and logistics operations, which shows up in the engineering style: standard work, observability, error-proofing, decision logs, and measurable validation.
 
-[![The Human Stack](https://img.shields.io/badge/The%20Human%20Stack-v0.9-blue)](https://github.com/AreteDriver/the-human-stack)
-[![Animus](https://img.shields.io/badge/Animus-51K%20LOC-blue?logo=github)](https://github.com/AreteDriver/animus)
-[![Animus CI](https://github.com/AreteDriver/animus/workflows/CI/badge.svg)](https://github.com/AreteDriver/animus/actions/workflows/ci.yml)
-[![Substack](https://img.shields.io/badge/Substack-aretedriver-orange?logo=substack)](https://aretedriver.substack.com)
+[![Animus](https://img.shields.io/badge/Flagship-Animus-blue?logo=github)](https://github.com/AreteDriver/animus)
+[![AI Cost Tooling](https://img.shields.io/badge/Tooling-ai--spend-blue?logo=python)](https://github.com/AreteDriver/ai-spend)
+[![MCP Tooling](https://img.shields.io/badge/MCP-mcp--manager-blue?logo=python)](https://github.com/AreteDriver/mcp-manager)
+[![Writing](https://img.shields.io/badge/Writing-Substack-orange?logo=substack)](https://aretedriver.substack.com)
 
----
+## What To Review First
 
-## What I Build
+| Area | Repo | Why It Matters |
+|---|---|---|
+| AI operating environment | [animus](https://github.com/AreteDriver/animus) | Multi-package AI system with memory, workflow orchestration, quality gates, and autonomous improvement loops. |
+| Cost observability | [ai-spend](https://github.com/AreteDriver/ai-spend) | Terminal-native spend aggregation across Anthropic, OpenAI, and OpenRouter without proxying requests. |
+| MCP operations | [mcp-manager](https://github.com/AreteDriver/mcp-manager) | CLI for discovering, validating, and syncing MCP servers across agentic IDEs. |
+| Workflow governance | [agent-lint](https://github.com/AreteDriver/agent-lint) | Static analysis for agent workflow YAML: cost exposure, retry limits, schemas, and failure-prone patterns. |
+| AI engineering method | [the-human-stack](https://github.com/AreteDriver/the-human-stack) | Evidence-graded engineering reference for production AI systems. |
+| Evaluation practice | [arete-evals](https://github.com/AreteDriver/arete-evals) | LLM eval suites and run records behind the methodology. |
 
-**Flagship:** [**Animus**](https://github.com/AreteDriver/animus) — AI operating environment. Local-first, multi-agent, evidence-graded maturity. 13,500+ public package tests plus internal coverage ratchets, six-layer architecture, autonomous improvement via Citizens (Architect, Conversation Designer, Knowledge Curator, Session Steward, Test Oracle).
+## Portfolio Signals
 
-**Shipped tools:**
-- [**ai-spend**](https://github.com/AreteDriver/ai-spend) — `htop` for AI spend. Cross-provider cost aggregation (Anthropic, OpenAI, OpenRouter). `pip install ai-spend`
-- [**mcp-manager**](https://github.com/AreteDriver/mcp-manager) — MCP server lifecycle manager across Claude Code, Cursor, Windsurf. `pip install arete-mcp`
-- [**ai-skills**](https://github.com/AreteDriver/ai-skills) — Production-ready skills for agent orchestration and Claude Code personas
+- **Systems engineering:** multi-package Python systems, FastAPI, SQLite/PostgreSQL, Pydantic, Rust/PyO3 boundaries, GitHub Actions.
+- **AI operations:** evaluation pipelines, cost controls, workflow checkpoints, quality gates, MCP lifecycle management.
+- **Security posture:** local-first defaults, secret hygiene, permission-prompt auditing, CodeQL/security workflows where applicable.
+- **Documentation:** decision logs, evidence grading, architecture docs, install paths, demo GIFs, and runnable examples.
 
-**Methodology:** [**the-human-stack**](https://github.com/AreteDriver/the-human-stack) — Evidence-graded engineering reference (E0–E5), benchmark methodology, failure taxonomy
+## Representative Work
 
-**Infrastructure:**
-- [**arete-evals**](https://github.com/AreteDriver/arete-evals) — LLM eval suites with bootstrap A/B comparison and rubric-based scoring
-- [**agent-lint**](https://github.com/AreteDriver/agent-lint) — Workflow YAML cost estimator + anti-pattern linter for agent orchestration
-- [**context-hygiene**](https://github.com/AreteDriver/context-hygiene) — Heuristic context-window analyzer with position-decay scoring
+### Animus
 
----
+Personal AI operating environment with local-first control, evidence-graded maturity, bitemporal memory, workflow orchestration, and autonomous improvement proposals.
 
-## The Tools in Action
+**Recruiter signal:** large system design, package boundaries, test discipline, docs, CI hardening, operational framing.
 
-![Arete Stack Demo Reel](docs/assets/arete-stack-demo-reel.gif)
+**Start here:** [README](https://github.com/AreteDriver/animus) - [Architecture](https://github.com/AreteDriver/animus/tree/main/docs/architecture) - [Roadmap](https://github.com/AreteDriver/animus/blob/main/docs/roadmap/current.md)
 
----
+### ai-spend
 
-## The Ecosystem
+CLI for aggregating AI API costs across providers without adding a proxy, SDK wrapper, or hosted dashboard.
 
-How the pieces fit. Solid lines = active integration. Dashed lines = methodology guidance or historical extraction.
+**Recruiter signal:** practical developer tooling, provider adapters, local credential handling, terminal UX, billing API integration.
 
-```mermaid
-flowchart TB
-    subgraph Flagship["FLAGSHIP"]
-        Animus[Animus<br/>AI Operating Environment]
-    end
+**Start here:** [README](https://github.com/AreteDriver/ai-spend) - `pip install ai-spend`
 
-    subgraph Ring1["CORE TOOLS — orbit Animus"]
-        direction LR
-        AISPEND[ai-spend<br/>Cost Observability]
-        MCPMGR[mcp-manager<br/>MCP Lifecycle]
-        EVALS[arete-evals<br/>Eval Pipeline]
-        LINT[agent-lint<br/>Workflow Governance]
-        HYGIENE[context-hygiene<br/>Context Quality]
-        SKILLS[ai-skills<br/>Agent Capabilities]
-    end
+### mcp-manager
 
-    subgraph Ring2["METHODOLOGY — governs all"]
-        direction LR
-        THS[the-human-stack<br/>Evidence-graded reference]
-        NOTES[notes<br/>Cross-session memory]
-        CI[ci-templates<br/>Reusable CI]
-    end
+MCP server lifecycle manager for Claude Code, Cursor, Windsurf, and related agentic IDE workflows.
 
-    subgraph Ring3["HISTORICAL — extracted into Animus"]
-        direction LR
-        MEMBOOT[memboot<br/>→ AST chunking]
-        ANCHOR[anchormd<br/>→ Pattern extraction]
-    end
+**Recruiter signal:** emerging AI tooling infrastructure, config normalization, health checks, security-aware developer workflows.
 
-    AISPEND -->|"spend data"| Animus
-    MCPMGR -->|"server registry"| Animus
-    EVALS -->|"benchmark results"| Animus
-    LINT -->|"workflow checks"| Animus
-    Animus -->|"orchestrates"| SKILLS
-    THS -.->|"guides"| Animus
-    THS -.->|"guides"| AISPEND
-    THS -.->|"guides"| LINT
-    MEMBOOT -.->|"upstreamed"| Animus
-    ANCHOR -.->|"patterns archived"| NOTES
-```
+**Start here:** [README](https://github.com/AreteDriver/mcp-manager) - `pip install arete-mcp`
 
----
+### agent-lint
 
-## The Predictability Gap
+Static analyzer for agent workflow configs. Detects unbounded retries, missing cost guards, hard-coded secrets, missing schemas, and fragile parallel orchestration.
 
-Most AI projects ship as demos and die in production. The failure modes are boringly consistent: **costs spiral** because no one tracks token spend, **pipelines break halfway through** and restart from scratch wasting compute, and **multi-agent systems bottleneck** on a single supervisor that burns tokens just watching. These aren't capability problems — they're operational problems.
+**Recruiter signal:** AI governance translated into executable checks.
 
-**The Human Stack** is my response: a living engineering methodology that treats AI systems as operational systems. Every claim is evidence-graded (E0–E5). Every architectural choice is append-only, dated, and cross-referenced in an ADL. Every tool carries adversarial tests before it ships. The methodology is public in [the-human-stack](https://github.com/AreteDriver/the-human-stack).
+**Start here:** [README](https://github.com/AreteDriver/agent-lint) - `pip install agentlinter`
 
-**The Arete Stack** is its implementation — the tools I actually build and maintain. Each repo maps to a layer of the methodology: skills for session discipline, cost observability for spend anomalies, governance linting for workflow anti-patterns, orchestration for autonomous improvement, and the methodology reference itself. This profile is arranged as an onion — start at the outer layer and peel inward.
+## Engineering Thesis
 
-*Before software I spent 17 years in manufacturing and logistics (IBM, Toyota Production System). That discipline shows up in every codebase: standard work, visual management, error-proofing, continuous improvement.*
+Most AI projects fail for operational reasons before they fail for model-capability reasons: unbounded cost, unclear validation, brittle workflows, and no recovery path after partial failure. My work focuses on making those risks visible and controllable with normal engineering mechanisms.
 
-**[Substack](https://aretedriver.substack.com)** · **[LinkedIn](https://www.linkedin.com/in/james-y-3b77b3120)** · **[jamesyng79@gmail.com](mailto:jamesyng79@gmail.com)**
+That operating model comes from manufacturing and logistics: define standard work, instrument the process, stop defects early, keep evidence, and improve the system continuously.
 
----
+## Writing And Methodology
 
-## Selected Writing
+- [The Human Stack](https://github.com/AreteDriver/the-human-stack) - evidence-graded methodology for operating AI systems.
+- [Substack](https://aretedriver.substack.com) - writing on AI operations, evaluation, local-first tooling, and manufacturing discipline applied to software.
+- [Decision Logging as Operational Memory](https://github.com/AreteDriver/the-human-stack/blob/main/manual/50-principles/decision-logging.md) - ADL practice for keeping architecture decisions inspectable.
 
-*Every post is grounded in a repo. Every repo is explained in a post.*
+## Contact
 
-- **[I Oversaw Scaling a Portland Ice Cream Line to 4,800 Pints Per Hour. AI Engineers Keep Making the Same Mistakes.](https://aretedriver.substack.com)** — Manufacturing discipline applied to production AI: waste visibility, checkpoint/resume, and error-proofing before error-catching. (Methodology: [the-human-stack](https://github.com/AreteDriver/the-human-stack) · Implementation: [Animus Session Controller](https://github.com/AreteDriver/animus))
-- **[The Eval Is the Product](https://aretedriver.substack.com)** — Why evaluation infrastructure matters more than model choice. (Tool: [arete-evals](https://github.com/AreteDriver/arete-evals) · Integration: [Animus Forge](https://github.com/AreteDriver/animus))
-- **[Local-First AI Stack](https://aretedriver.substack.com)** — Zero-cost inference with Ollama on consumer hardware. (Stack: RX 7900 XTX + 4-model tier · Budget tool: [ai-spend](https://github.com/AreteDriver/ai-spend))
-- **[Decision Logging as Operational Memory](https://github.com/AreteDriver/the-human-stack/blob/main/manual/50-principles/decision-logging.md)** — The ADL methodology: append-only, evidence-graded, revisit-conditioned. (Practice: [notes/decisions](https://github.com/AreteDriver/notes/tree/main/decisions))
-
----
-
-## Notable Projects
-
-These are the repos I keep closest to release quality — evidence, tests, and documentation first.
-
-| Project | Signal | Language | What It Is |
-|---------|--------|----------|------------|
-| [animus](https://github.com/AreteDriver/animus) | Flagship | Python | Personal AI operating environment — bitemporal memory, evidence-graded maturity, autonomous improvement |
-| [mcp-manager](https://github.com/AreteDriver/mcp-manager) | PyPI | Python | MCP server lifecycle manager across Claude Code, Cursor, Windsurf — now with permission-prompt audit |
-| [ai-spend](https://github.com/AreteDriver/ai-spend) | PyPI | Python | Cross-provider AI cost aggregation with provider retry, config encryption, and health checks |
-| [agent-lint](https://github.com/AreteDriver/agent-lint) | PyPI | Python | Workflow YAML cost estimator + anti-pattern detection for agent orchestration |
-| [the-human-stack](https://github.com/AreteDriver/the-human-stack) | Methodology | Markdown | Living engineering reference — evidence-graded chapters, benchmark methodology, failure taxonomy |
-| [ai-skills](https://github.com/AreteDriver/ai-skills) | Reusable assets | Python | Production-ready skills for Claude Code personas and orchestrated workflows |
-| [arete-evals](https://github.com/AreteDriver/arete-evals) | Eval records | Python | LLM eval suites and run records — eval engineering vs eval practice |
-
-*Hobby projects (EVE Online lore, personal context servers) are kept private. What you see here is what I ship.*
-
----
-
-## Start Here: The Arete Stack
-
-The fastest way to understand the methodology is to use it. These repos are arranged as an onion — start at the outer layer and peel inward.
-
-| Layer | Repo | What It Is | Entry Point |
-|-------|------|------------|-------------|
-| **Skills** | [ai-skills](https://github.com/AreteDriver/ai-skills) | Production-ready skills for Claude Code, agent orchestration, and workflows | `./tools/install.sh --bundle arete-studio-ops` |
-| **Eval** | [arete-evals](https://github.com/AreteDriver/arete-evals) | LLM eval suites and run records — eval engineering vs eval practice | `pip install -e .` |
-| **Cost** | [ai-spend](https://github.com/AreteDriver/ai-spend) | `htop` for AI spend — cross-provider cost aggregation | `pip install ai-spend` |
-| **Governance** | [agent-lint](https://github.com/AreteDriver/agent-lint) | Workflow YAML cost estimator + anti-pattern linter | `pip install agentlinter` |
-| **Orchestration** | [animus](https://github.com/AreteDriver/animus) | Personal AI operating environment with local-first control, evidence-graded maturity, session persistence, autonomous improvement | `git clone` + `docker compose up` |
-| **Methodology** | [the-human-stack](https://github.com/AreteDriver/the-human-stack) | The engineering reference itself — evidence-graded chapters, benchmark methodology, failure taxonomy | Read [VISION.md](https://github.com/AreteDriver/the-human-stack/blob/main/VISION.md) |
-
----
-
-## The Proof: Animus
-
-[Animus](https://github.com/AreteDriver/animus) is the primary reference implementation — a personal AI operating environment with local-first control and evidence-graded maturity tracking.
-
-| Subsystem | What It Does | Tests |
-|-----------|--------------|-------|
-| **Kernel** | Bitemporal memory core, checkpoint/resume, session persistence | 488 green |
-| **Head** | Quality gates, fallback routing, natural-language interface | 96 green |
-| **Citizens** | Architect (autonomous improvement proposals), Conversation Designer, Knowledge Curator | 71 green |
-| **Forge** | Eval pipeline, benchmark execution, rubric-based scoring | Integrated |
-| **Session Controller** | Token-budgeted session lifecycle, graceful wrap, auto-restart | 22 green |
-
-**Key design decisions (visible in the code):**
-
-- **[Evidence Framework](https://github.com/AreteDriver/animus/blob/main/docs/evidence-framework.md)** — Six-stage maturity model (Concept → Self-improving) with Coverage KPI. Makes "documented but unverified" into "inspectable evidence."
-- **[ADL-governed architecture](https://github.com/AreteDriver/animus/tree/main/decisions)** — Every major decision is append-only, dated, and cross-referenced. No tribal knowledge.
-- **[Quality gates before merge](https://github.com/AreteDriver/animus)** — Deterministic scoring (tool/completeness/structure) with adversarial test harness. Features don't ship without gate passage.
-
----
-
-## Active Developer Tools
-
-| Tool | What It Does | Install |
-|------|--------------|---------|
-| [ai-spend](https://github.com/AreteDriver/ai-spend) | **`htop` for AI spend** — cross-provider cost aggregation with OpenRouter, Anthropic, OpenAI | `pip install ai-spend` |
-| [mcp-manager](https://github.com/AreteDriver/mcp-manager) | MCP server manager across agentic IDEs (Claude Code, Cursor, Windsurf) | `pip install arete-mcp` |
-| [agent-lint](https://github.com/AreteDriver/agent-lint) | Workflow YAML cost estimator + anti-pattern linter | `pip install agentlinter` |
-| [context-hygiene](https://github.com/AreteDriver/context-hygiene) | Heuristic context-window analyzer — position-decay scoring + regex patterns | `pip install context-hygiene` |
-| [arete-evals](https://github.com/AreteDriver/arete-evals) | LLM eval suites with benchmark scoring, A/B comparison with bootstrap CIs | `pip install -e .` |
-| [ci-templates](https://github.com/AreteDriver/ci-templates) | Reusable GitHub Actions workflows, lint configs, release automation | Copy + adapt |
-| [RedOPS](https://github.com/AreteDriver/RedOPS) | Red-team playbook for AI infrastructure — incident response, supply-chain audit | Read + run |
-| [overwatch](https://github.com/AreteDriver/overwatch) | Experimental situational-awareness dashboard for authorized data feeds and local demos | `pip install -e .` |
-
----
-
-## How I Work
-
-- **Decision logs, not memory.** Every architectural choice is an ADL entry — rationale, rejected options, tradeoffs, kill criteria.
-- **Tests are deliverables.** Not an afterthought. Adversarial tests prevent regression of quality-gate contracts.
-- **Local-first where possible.** RX 7900 XTX inference stack (Ollama, 4-model tiered) for zero-cost eval calibration.
-- **Ship, measure, error-proof, repeat.** Kaizen learned from scaling an ice-cream line 6× — applied to software.
-
----
-
-## How This Code Is Written
-
-I develop primarily with **Claude Code** (Anthropic's CLI for Claude). Think of it as pair programming with a fast, literal pair — not autonomous AI.
-
-**What that means:**
-- Every commit is human-reviewed. The `claude` contributor in git history is the application, not a person.
-- Every test is human-verified. Coverage numbers reflect assertions I wrote and ran.
-- Every architectural decision is logged in the ADL with rationale, rejected options, and tradeoffs.
-- AI accelerates implementation; humans own validation, integration, and shipping.
-
-**Why this matters:**
-AI-assisted development is becoming standard. What differentiates engineering discipline from cargo-culting is the verification layer: adversarial tests, evidence-graded maturity, and append-only decision logs. The code works because I test it. The methodology holds because I revisit it.
-
----
-
-## Selected Work
-
-Direct entry points for "what does the code actually look like":
-
-- **[Animus Kernel — bitemporal memory + adversarial tests](https://github.com/AreteDriver/animus)** — v2.3 scaffold: valid-time / transaction-time axes, quality-gate contracts enforced before any feature ships. Architect Citizen produces ImprovementProposals from codebase observation.
-- **[ai-spend — OpenRouter provider](https://github.com/AreteDriver/ai-spend)** — `GET /api/v1/generations` pagination with `native_cost` fallback to token-based estimates. Pattern: provider registry ABC with side-effect registration.
-- **[Animus Session Controller](https://github.com/AreteDriver/animus)** — Token-budgeted session lifecycle (96% utilization trigger), graceful finalization with model-generated summary, checkpoint + auto-restart. 22 focused tests, with head-core regression coverage.
-- **[Animus P5 Discovery](https://github.com/AreteDriver/animus)** — MCP scanner, OpenAPI ingestion, annotated script discovery, 4-dimension schema validator, hash deduplication. 41 focused tests, with P0-P5 regression coverage.
-
----
-
-## Background
-
-17 years in manufacturing and logistics operations (IBM, Toyota Production System). Scaled an ice-cream production line from 740 pints/day to 4,800/hour using Kaizen. Now apply the same discipline to AI infrastructure: standard work, visual management, error-proofing, continuous improvement.
-
-*See it through. Do it better. Leave something real.*
+[LinkedIn](https://www.linkedin.com/in/james-y-3b77b3120) - [Substack](https://aretedriver.substack.com) - [Email](mailto:jamesyng79@gmail.com)
