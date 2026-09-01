@@ -39,4 +39,4 @@ I am especially interested in work that combines technical problem solving with 
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/james-y-3b77b3120) · [Portfolio](https://aretedriver.dev) · [Writing](https://aretedriver.substack.com) · Portland, Oregon
+[LinkedIn](https://www.linkedin.com/in/james-y-3b77b3120) · [Portfolio](https://github.com/AreteDriver/arete-portfolio) · [Writing](https://aretedriver.substack.com) · Portland, Oregon
