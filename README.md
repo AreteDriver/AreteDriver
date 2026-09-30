@@ -6,15 +6,57 @@ I build practical AI operations and workflow tools shaped by enterprise support,
 
 I am pursuing hands-on mid-level roles in **AI implementation, enablement, technical operations, solutions, workflow automation, process engineering, and business systems** in Oregon, Washington, or U.S.-remote teams.
 
-## What to review first
+## AI integration and developer operations
 
-| Project | Problem it addresses | What it demonstrates |
-|---|---|---|
-| [mcp-manager](https://github.com/AreteDriver/mcp-manager) | MCP configuration is fragmented across AI development tools | Configuration normalization, health checks, safe write-back, CLI design, documentation |
-| [ai-spend](https://github.com/AreteDriver/ai-spend) | AI API costs are difficult to see across providers | API integration, local data handling, cost visibility, practical terminal UX |
-| [agent-lint](https://github.com/AreteDriver/agent-lint) | Agent workflows can hide unbounded cost and reliability risks | Evaluation, governance, static analysis, failure prevention |
-| [arete-evals](https://github.com/AreteDriver/arete-evals) | LLM behavior needs repeatable evidence rather than impressions | Evaluation practice, rubric design, run records, comparison discipline |
-| [the-human-stack](https://github.com/AreteDriver/the-human-stack) | AI implementation needs operational controls and reliable handoffs | Process thinking, technical communication, evidence grading, implementation methodology |
+### [MCP Manager](https://github.com/AreteDriver/mcp-manager)
+
+**Problem:** AI development clients store and interpret MCP configuration differently.
+
+**Approach:** A project configuration, client-specific adapters, diagnostics and controlled writeback.
+
+**Artifact and evidence:** [Source and quickstart](https://github.com/AreteDriver/mcp-manager#30-second-quickstart), [tests](https://github.com/AreteDriver/mcp-manager/tree/main/tests), and [workflow results](https://github.com/AreteDriver/mcp-manager/actions).
+
+**Result boundary:** Implements configuration management and protocol diagnostics. Third-party server behavior and real-client compatibility need their own acceptance checks.
+
+## Workflow governance
+
+### [agent-lint](https://github.com/AreteDriver/agent-lint)
+
+**Problem:** Workflow configurations can omit budgets, retry limits and output contracts.
+
+**Approach:** Static rules produce findings that can be reviewed in a CLI or CI workflow.
+
+**Artifact and evidence:** [Usage](https://github.com/AreteDriver/agent-lint#usage), [rule implementation](https://github.com/AreteDriver/agent-lint/tree/main/src/agent_lint/rules), and [annotated benchmark fixtures](https://github.com/AreteDriver/agent-lint/tree/main/tests/fixtures/benchmarks).
+
+**Result boundary:** Configuration findings are review aids, not runtime enforcement or proof of savings. The project uses [BUSL-1.1](https://github.com/AreteDriver/agent-lint/blob/main/LICENSE).
+
+## Evaluation and cost visibility
+
+### [Arete Evals](https://github.com/AreteDriver/arete-evals)
+
+**Problem:** An evaluation can report failures because its own metric is wrong.
+
+**Approach:** Keep the original responses, diagnose the false positives, and replay corrected checks against the same data.
+
+**Artifact and evidence:** [Case study](https://github.com/AreteDriver/arete-evals#case-study-the-first-live-run-of-benchgoblins-ask), [stored record](https://github.com/AreteDriver/arete-evals/blob/main/results/benchgoblins-ask-6ea664d3.json), and [offline verifier](https://github.com/AreteDriver/arete-evals/blob/main/scripts/verify_fix.py).
+
+**Result boundary:** The replay tests the stored regression case. It does not establish current model quality or general detection accuracy.
+
+### [ai-spend](https://github.com/AreteDriver/ai-spend)
+
+**Problem:** Usage and cost information is scattered across providers.
+
+**Approach:** A local CLI brings provider usage into a common reporting workflow.
+
+**Artifact and evidence:** [Provider adapters](https://github.com/AreteDriver/ai-spend/tree/main/src/ai_spend/providers), [tests](https://github.com/AreteDriver/ai-spend/tree/main/tests), and the repository's demo.
+
+**Result boundary:** Cost visibility is distinct from cost reduction; no savings are claimed without a measured comparison.
+
+## Process, implementation and human handoffs
+
+### [The Human Stack](https://github.com/AreteDriver/the-human-stack)
+
+A practical reference for approaching AI work as an operational system: distinguish a hypothesis from implementation, define evidence, and make handoffs and limitations explicit. It supports the engineering case studies; it does not substitute for observed adoption or business outcomes.
 
 ## The operations-to-AI bridge
 
